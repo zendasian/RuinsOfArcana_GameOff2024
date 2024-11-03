@@ -234,12 +234,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
+<<<<<<< Updated upstream
     nameFileIdTable:
       inventory items & border_0: -5344558710882729020
       inventory items & border_1: -3359196001563855686
       inventory items & border_2: 3817173663337575707
       inventory items & border_3: -54154163470514347
       inventory items & border_4: 1217322886662066967
+=======
+    nameFileIdTable: {}
+>>>>>>> Stashed changes
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
