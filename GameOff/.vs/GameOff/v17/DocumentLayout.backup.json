@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|z:\\game engine projecets\\unity\\gamejam\\unity\\unity\\gameoff\\assets\\scripts\\test\\pickupitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test\\pickupitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|z:\\game engine projecets\\unity\\gamejam\\unity\\unity\\gameoff\\assets\\scripts\\test\\inventoryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test\\inventoryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|z:\\game engine projecets\\unity\\gamejam\\unity\\unity\\gameoff\\assets\\scripts\\test\\invectorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\assets\\scripts\\test\\invectorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test\\invectorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -35,6 +39,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PickupItem.cs",
+              "DocumentMoniker": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\Assets\\Scripts\\test\\PickupItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\test\\PickupItem.cs",
+              "ToolTip": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\Assets\\Scripts\\test\\PickupItem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\test\\PickupItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T12:27:52.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "InventoryUI.cs",
               "DocumentMoniker": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\Assets\\Scripts\\test\\InventoryUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\test\\InventoryUI.cs",
@@ -47,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Item.cs",
               "DocumentMoniker": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\Assets\\Scripts\\test\\Item.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\test\\Item.cs",
@@ -59,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "InvectoryManager.cs",
               "DocumentMoniker": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\Assets\\Scripts\\test\\InvectoryManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\test\\InvectoryManager.cs",
@@ -67,12 +84,11 @@
               "RelativeToolTip": "Assets\\Scripts\\test\\InvectoryManager.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwAYAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T12:23:53.441Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T12:23:53.441Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "items_show.cs",
               "DocumentMoniker": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\Assets\\Scripts\\test\\items_show.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\test\\items_show.cs",
@@ -84,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Inventory_itelms.cs",
               "DocumentMoniker": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\Assets\\Scripts\\test\\Inventory_itelms.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\test\\Inventory_itelms.cs",
