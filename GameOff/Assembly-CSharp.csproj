@@ -61,7 +61,12 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.25f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\test_script\Items_Object.cs" />
+    <Compile Include="Assets\Scripts\test_script\Inventory_manager.cs" />
+    <Compile Include="Assets\Scripts\test_script\Items.cs" />
+    <Compile Include="Assets\Scripts\test_script\Pickup_items.cs" />
     <Compile Include="Assets\Scripts\test_script\Player.cs" />
+    <Compile Include="Assets\Scripts\test_script\SlotUI.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

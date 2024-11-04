@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     Rigidbody2D rb;
     public float speed = 10f;
     private float  movementAxis = 0f;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -26,5 +27,17 @@ public class Player : MonoBehaviour
          rb.linearVelocityX = Time.deltaTime * speed * movementAxis;
         
            
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "items")
+        {
+            Items thisitem = collision.gameObject.GetComponent<Items_Object>().item;
+            Debug.Log(thisitem.name);
+            collision.gameObject.SetActive(false);
+            FindFirstObjectByType<Inventory_manager>().Additems(thisitem);
+        }
+            
+            
     }
 }

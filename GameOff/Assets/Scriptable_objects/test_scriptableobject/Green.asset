@@ -9,11 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34380495ff3661f42b93e65b5b129f82, type: 3}
+  m_Script: {fileID: 11500000, guid: a769f7c2b0887824fb3ab2248d568228, type: 3}
   m_Name: Green
   m_EditorClassIdentifier: 
-  ItemSprite: {fileID: -5344558710882729020, guid: 3f0012e4298fe404a9d73673a4bf29f9, type: 3}
-  Description: scanner
-  Actions:
-  - lightBend
-  - Key
+  name: Green
+  icon: {fileID: -5344558710882729020, guid: 3f0012e4298fe404a9d73673a4bf29f9, type: 3}
+  description: scanner
+  Actions: []
