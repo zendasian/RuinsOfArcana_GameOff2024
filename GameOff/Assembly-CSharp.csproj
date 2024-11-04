@@ -64,9 +64,9 @@
     <Compile Include="Assets\Scripts\test_script\Items_Object.cs" />
     <Compile Include="Assets\Scripts\test_script\Inventory_manager.cs" />
     <Compile Include="Assets\Scripts\test_script\Items.cs" />
+    <Compile Include="Assets\Scripts\test_script\Item_usage.cs" />
     <Compile Include="Assets\Scripts\test_script\Pickup_items.cs" />
     <Compile Include="Assets\Scripts\test_script\Player.cs" />
-    <Compile Include="Assets\Scripts\test_script\SlotUI.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

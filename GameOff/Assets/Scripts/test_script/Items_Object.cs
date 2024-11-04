@@ -10,12 +10,7 @@ public class Items_Object : MonoBehaviour
     {
         sprite_this = GetComponent<SpriteRenderer>();
         sprite_this.sprite = item.icon;
-        
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
