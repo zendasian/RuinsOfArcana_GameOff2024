@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|z:\\game engine projecets\\unity\\gamejam\\unity\\unity\\gameoff\\assets\\scripts\\test_script\\inventory_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test_script\\inventory_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\assets\\scripts\\test_script\\item_usage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test_script\\item_usage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|z:\\game engine projecets\\unity\\gamejam\\unity\\unity\\gameoff\\assets\\scripts\\test_script\\inventory_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test_script\\inventory_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\assets\\scripts\\test_script\\pickup_items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,17 +34,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Item_usage.cs",
               "DocumentMoniker": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\Assets\\Scripts\\test_script\\Item_usage.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\test_script\\Item_usage.cs",
               "ToolTip": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\Assets\\Scripts\\test_script\\Item_usage.cs",
               "RelativeToolTip": "Assets\\Scripts\\test_script\\Item_usage.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-04T03:36:45.705Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "Assets\\Scripts\\test_script\\Pickup_items.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T03:35:03.702Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-04T03:35:03.702Z"
             },
             {
               "$type": "Document",
@@ -76,13 +75,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Inventory_manager.cs",
               "DocumentMoniker": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\Assets\\Scripts\\test_script\\Inventory_manager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\test_script\\Inventory_manager.cs",
               "ToolTip": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\Assets\\Scripts\\test_script\\Inventory_manager.cs",
               "RelativeToolTip": "Assets\\Scripts\\test_script\\Inventory_manager.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwBoAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T14:36:22.369Z",
               "EditorCaption": ""
