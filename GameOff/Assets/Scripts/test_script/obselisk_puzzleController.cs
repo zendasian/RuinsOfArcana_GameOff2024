@@ -1,6 +1,7 @@
 using NUnit.Framework;
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.Events;
 
 public class obselisk_puzzleController : MonoBehaviour
 {
@@ -8,6 +9,8 @@ public class obselisk_puzzleController : MonoBehaviour
     private List<GameObject> obselisks = new List<GameObject>();
 
     int amountofobselisk;
+
+    public UnityEvent puzzleSolved;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -27,6 +30,7 @@ public class obselisk_puzzleController : MonoBehaviour
         if (obselisks[0].GetComponent<Obselisk>().isagnglecorrect && obselisks[1].GetComponent<Obselisk>().isagnglecorrect && obselisks[2].GetComponent<Obselisk>().isagnglecorrect)
         {
             Debug.Log("level complete!!!!!!!!!!!!!!!!");
+            puzzleSolved.Invoke();
         }
     }
 }
