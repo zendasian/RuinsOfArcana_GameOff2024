@@ -2,6 +2,7 @@ using NUnit.Framework;
 using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.Events;
+using System.Linq;
 
 public class obselisk_puzzleController : MonoBehaviour
 {
@@ -14,13 +15,7 @@ public class obselisk_puzzleController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        amountofobselisk = this.transform.childCount;
-
-        for (int i= 0; i <= amountofobselisk; i++) 
-        {
-            obselisks.Add(this.transform.GetChild(i).gameObject);
-
-        }
+    
     }
 
     // Update is called once per frame
@@ -32,5 +27,6 @@ public class obselisk_puzzleController : MonoBehaviour
             Debug.Log("level complete!!!!!!!!!!!!!!!!");
             puzzleSolved.Invoke();
         }
+        
     }
 }

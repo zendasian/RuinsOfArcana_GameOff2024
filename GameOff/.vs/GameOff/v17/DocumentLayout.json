@@ -3,36 +3,32 @@
   "WorkspaceRootPath": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|z:\\game engine projecets\\unity\\gamejam\\unity\\unity\\gameoff\\assets\\scripts\\test_script\\obselisk_puzzlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test_script\\obselisk_puzzlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\assets\\scripts\\test_script\\obselisk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test_script\\obselisk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\assets\\scripts\\test_script\\inventory_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test_script\\inventory_manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\assets\\scripts\\test_script\\item_usage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test_script\\item_usage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|z:\\game engine projecets\\unity\\gamejam\\unity\\unity\\gameoff\\assets\\scripts\\test_script\\item_ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test_script\\item_ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\assets\\scripts\\test_script\\pickup_items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test_script\\pickup_items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\assets\\scripts\\test_script\\items_object.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test_script\\items_object.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|z:\\game engine projecets\\unity\\gamejam\\unity\\unity\\gameoff\\assets\\scripts\\test_script\\obselisk_puzzlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test_script\\obselisk_puzzlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\assets\\scripts\\test_script\\items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test_script\\items.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\assets\\scripts\\test_script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test_script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\assets\\scripts\\test_script\\globalvariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test_script\\globalvariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\assets\\scripts\\test_script\\items_object.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test_script\\items_object.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\assets\\scripts\\test_script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55518741-0CB8-1C6E-499E-58AC818B5B28}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\test_script\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,92 +38,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "obselisk_puzzleController.cs",
               "DocumentMoniker": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\Assets\\Scripts\\test_script\\obselisk_puzzleController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\test_script\\obselisk_puzzleController.cs",
               "ToolTip": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\Assets\\Scripts\\test_script\\obselisk_puzzleController.cs",
               "RelativeToolTip": "Assets\\Scripts\\test_script\\obselisk_puzzleController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAqwCAAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T06:15:05.426Z",
+              "WhenOpened": "2024-11-07T06:09:31.873Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Obselisk.cs",
-              "DocumentMoniker": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\Assets\\Scripts\\test_script\\Obselisk.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\test_script\\Obselisk.cs",
-              "ToolTip": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\Assets\\Scripts\\test_script\\Obselisk.cs",
-              "RelativeToolTip": "Assets\\Scripts\\test_script\\Obselisk.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCMAAAAkAAAAAAAAAA==",
+              "Title": "Item_UI.cs",
+              "DocumentMoniker": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\Assets\\Scripts\\test_script\\Item_UI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\test_script\\Item_UI.cs",
+              "ToolTip": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\Assets\\Scripts\\test_script\\Item_UI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\test_script\\Item_UI.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAArwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T04:58:02.414Z"
+              "WhenOpened": "2024-11-07T05:41:30.364Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Item_usage.cs",
-              "DocumentMoniker": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\Assets\\Scripts\\test_script\\Item_usage.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\test_script\\Item_usage.cs",
-              "ToolTip": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\Assets\\Scripts\\test_script\\Item_usage.cs",
-              "RelativeToolTip": "Assets\\Scripts\\test_script\\Item_usage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T03:36:45.705Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Pickup_items.cs",
-              "DocumentMoniker": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\Assets\\Scripts\\test_script\\Pickup_items.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\test_script\\Pickup_items.cs",
-              "ToolTip": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\Assets\\Scripts\\test_script\\Pickup_items.cs",
-              "RelativeToolTip": "Assets\\Scripts\\test_script\\Pickup_items.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T03:35:03.702Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Items_Object.cs",
-              "DocumentMoniker": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\Assets\\Scripts\\test_script\\Items_Object.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\test_script\\Items_Object.cs",
-              "ToolTip": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\Assets\\Scripts\\test_script\\Items_Object.cs",
-              "RelativeToolTip": "Assets\\Scripts\\test_script\\Items_Object.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T14:41:39.252Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Inventory_manager.cs",
               "DocumentMoniker": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\Assets\\Scripts\\test_script\\Inventory_manager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\test_script\\Inventory_manager.cs",
               "ToolTip": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\Assets\\Scripts\\test_script\\Inventory_manager.cs",
               "RelativeToolTip": "Assets\\Scripts\\test_script\\Inventory_manager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAYwDkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T14:36:22.369Z"
+              "WhenOpened": "2024-11-03T14:36:22.369Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "GlobalVariable.cs",
+              "DocumentMoniker": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\Assets\\Scripts\\test_script\\GlobalVariable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\test_script\\GlobalVariable.cs",
+              "ToolTip": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\Assets\\Scripts\\test_script\\GlobalVariable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\test_script\\GlobalVariable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T16:29:53.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Items_Object.cs",
+              "DocumentMoniker": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\Assets\\Scripts\\test_script\\Items_Object.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\test_script\\Items_Object.cs",
+              "ToolTip": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\Assets\\Scripts\\test_script\\Items_Object.cs",
+              "RelativeToolTip": "Assets\\Scripts\\test_script\\Items_Object.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T14:41:39.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Items.cs",
               "DocumentMoniker": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\Assets\\Scripts\\test_script\\Items.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\test_script\\Items.cs",
               "ToolTip": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\Assets\\Scripts\\test_script\\Items.cs",
               "RelativeToolTip": "Assets\\Scripts\\test_script\\Items.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T14:31:50.687Z"
+              "WhenOpened": "2024-11-03T14:31:50.687Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -137,7 +126,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\test_script\\Player.cs",
               "ToolTip": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\Assets\\Scripts\\test_script\\Player.cs",
               "RelativeToolTip": "Assets\\Scripts\\test_script\\Player.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwCUAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACYAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T13:49:18.169Z"
             }

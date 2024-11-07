@@ -28,16 +28,16 @@ public class Player : MonoBehaviour
         
            
     }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.tag == "items")
-        {
-            Items thisitem = collision.gameObject.GetComponent<Items_Object>().item;
-            Debug.Log(thisitem.name);
-            collision.gameObject.SetActive(false);
-            FindFirstObjectByType<Inventory_manager>().Additems(thisitem);
-        }
-            
-            
-    }
+    //private void OnTriggerEnter2D(Collider2D collision)
+    //{
+    //    if (collision.tag == "items")
+    //    {
+    //        Items thisitem = collision.gameObject.GetComponent<Items_Object>().item;
+
+    //        collision.gameObject.SetActive(false);
+    //        FindFirstObjectByType<Inventory_manager>().Additems(thisitem);
+    //    }
+
+
+    //}
 }
