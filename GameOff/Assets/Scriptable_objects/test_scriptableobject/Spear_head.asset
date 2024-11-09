@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a769f7c2b0887824fb3ab2248d568228, type: 3}
   m_Name: Spear_head
   m_EditorClassIdentifier: 
-  name: Spear_head
+  name: Spearhead
   icon: {fileID: 2376382260624694119, guid: 7d21e75f860d2f24099c88d6bd5e96cb, type: 3}
   description: a spear head maybe we can attach an stick to it to make a spear
   Actions:
