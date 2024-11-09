@@ -62,8 +62,7 @@
               "RelativeToolTip": "Assets\\Scripts\\test_script\\Item_UI.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T05:41:30.364Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T05:41:30.364Z"
             },
             {
               "$type": "Document",
@@ -73,7 +72,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\test_script\\Inventory_manager.cs",
               "ToolTip": "Z:\\Game engine projecets\\unity\\GameJam\\Unity\\unity\\GameOff\\Assets\\Scripts\\test_script\\Inventory_manager.cs",
               "RelativeToolTip": "Assets\\Scripts\\test_script\\Inventory_manager.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAkwFIAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAkwFkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-03T14:36:22.369Z",
               "EditorCaption": ""
@@ -88,8 +87,7 @@
               "RelativeToolTip": "Assets\\Scripts\\test_script\\Items_Object.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwBoAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T14:41:39.252Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T14:41:39.252Z"
             },
             {
               "$type": "Document",
@@ -101,8 +99,7 @@
               "RelativeToolTip": "Assets\\Scripts\\test_script\\Items.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T14:31:50.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T14:31:50.687Z"
             },
             {
               "$type": "Document",
@@ -114,8 +111,7 @@
               "RelativeToolTip": "Assets\\Scripts\\test_script\\Player.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACYAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T13:49:18.169Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T13:49:18.169Z"
             },
             {
               "$type": "Document",
@@ -127,8 +123,7 @@
               "RelativeToolTip": "Assets\\Scripts\\test_script\\GlobalVariable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T16:29:53.34Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T16:29:53.34Z"
             }
           ]
         }

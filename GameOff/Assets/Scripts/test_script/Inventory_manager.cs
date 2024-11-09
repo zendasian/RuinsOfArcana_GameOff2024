@@ -16,6 +16,7 @@ public class Inventory_manager : MonoBehaviour
     int slotnum = 0;
 
     public Items OGSlot;
+
     Items tempItem;
     int tempslotnum;
 
