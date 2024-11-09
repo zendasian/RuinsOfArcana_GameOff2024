@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: cf27082aa0678714796f286407b4e15b
+guid: a9d5d40819bdb024883fc9b1775b0e31
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6141348197317077465
-    second: abandoned_construction_1k_0
+      213: 2376382260624694119
+    second: spearhead_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -24,7 +24,7 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
     flipGreenChannel: 0
-  isReadable: 0
+  isReadable: 1
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -57,7 +57,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 7
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: abandoned_construction_1k_0
+      name: spearhead_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1024
-        height: 512
+        x: 7
+        y: 6
+        width: 51
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7261ee05a5c85caa0800000000000000
-      internalID: -6141348197317077465
+      spriteID: 76b131f431b9af020800000000000000
+      internalID: 2376382260624694119
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      abandoned_construction_1k_0: -6141348197317077465
+      spearhead_0: 2376382260624694119
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -9,4 +9,5 @@ public class Items : ScriptableObject
     public Sprite icon;
     public string description;
     public List<string> Actions = new List<string>();
+    public Texture2D cursor;
 }
