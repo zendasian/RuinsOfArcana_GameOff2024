@@ -70,6 +70,8 @@
     <Compile Include="Assets\Scripts\test_script\DialogueList.cs" />
     <Compile Include="Assets\Scripts\test_script\Player.cs" />
     <Compile Include="Assets\Scripts\test_script\Obselisk.cs" />
+    <Compile Include="Assets\Scripts\test_script\Audio_Manager.cs" />
+    <Compile Include="Assets\Scripts\test_script\Sound.cs" />
     <Compile Include="Assets\Scripts\test_script\ObjectClickHandler.cs" />
     <Compile Include="Assets\Scripts\test_script\obselisk_puzzleController.cs" />
   </ItemGroup>

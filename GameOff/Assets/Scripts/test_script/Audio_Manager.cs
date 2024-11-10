@@ -34,16 +34,28 @@ public class Audio_Manager : MonoBehaviour
             
         }
         
+        
     }
     private void Start()
     {
-        Play("BG_music");
+       // Play("BG_music");
+        
     }
 
     public void Play (string name)
     {
         Sound s = Array.Find(sounds, sounds => sounds.name == name);
         s.source.Play();
+        
+        if (s == null)
+            return;
+    }
+
+    public void Stop (string name)
+    {
+        Sound s = Array.Find(sounds, sounds => sounds.name == name);
+        s.source.Stop();
+
         if (s == null)
             return;
     }

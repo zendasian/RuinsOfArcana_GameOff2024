@@ -13,23 +13,23 @@ public class DialogueSystem : MonoBehaviour
     private bool isTyping = false;
 
     // Reference to DialogueList component
-    private DialogueList dialogueList;
+    //private DialogueList dialogueList;
 
     private void Start()
     {
-        dialogueList = FindFirstObjectByType<DialogueList>();
+        //dialogueList = FindFirstObjectByType<DialogueList>();
     }
 
     // Function to be called when an object is clicked, passing its tag
-    public void DisplayDialogueByTag(string tag)
-    {
-        Debug.Log("DisplayDialogueByTag Called");
-        if (dialogueList != null && !isTyping)
-        {
-            string dialogue = dialogueList.GetDialogueByTag(tag);
-            StartCoroutine(TypeDialogue(dialogue));
-        }
-    }
+    //public void DisplayDialogueByTag(string tag)
+    //{
+    //    Debug.Log("DisplayDialogueByTag Called");
+    //    if (dialogueList != null && !isTyping)
+    //    {
+    //        string dialogue = dialogueList.GetDialogueByTag(tag);
+    //        StartCoroutine(TypeDialogue(dialogue));
+    //    }
+    //}
 
     // Function to display any dialogue passed as a parameter
     public void DisplayDialogue(string dialogue)
