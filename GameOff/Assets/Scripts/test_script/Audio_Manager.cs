@@ -21,7 +21,7 @@ public class Audio_Manager : MonoBehaviour
 
         DontDestroyOnLoad(gameObject);
         
-
+        
         foreach (Sound s in sounds)
         {
             s.source = gameObject.AddComponent<AudioSource>();
@@ -33,7 +33,6 @@ public class Audio_Manager : MonoBehaviour
             s.source.outputAudioMixerGroup = s.MasterMixxer;
             
         }
-        
         
     }
     private void Start()

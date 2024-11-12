@@ -13,7 +13,7 @@ public class Inventory_manager : MonoBehaviour
     List<Items> item = new List<Items>();
     [SerializeField]
     List<GameObject> Slots = new List<GameObject>();
-    int slotnum = 0;
+    
 
     public Items OGSlot;
 
@@ -44,11 +44,14 @@ public class Inventory_manager : MonoBehaviour
         if (iscustomCursor == false)
         {
             item.Add(otheritem);
-            if (item.Count != null)
+            if (item != null)
             {
                 Slots[Emptyslots[0]].GetComponent<Item_UI>().slotItem = otheritem;
                 Emptyslots.RemoveAt(0);
-                othergameobject.SetActive(false);
+                if (othergameobject != null)
+                {
+                    othergameobject.SetActive(false);
+                }
                 iscustomCursor = false;
             }
         }
