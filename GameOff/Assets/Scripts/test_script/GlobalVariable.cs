@@ -6,15 +6,27 @@ public class GlobalVariable : MonoBehaviour
 {
     public bool[] phase = new bool[4];
 
+    public static GlobalVariable instance;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    void Awake()
+    {
+        if (instance == null)
+            instance = this;
+        else
+        {
+            Destroy(gameObject);
+            return;
+        }
+        DontDestroyOnLoad(gameObject);
+    }
+   
     void Start()
     {
         phase[0] = true;
-        DontDestroyOnLoad(gameObject);
+       
 
     }
-    // Update is called once per frame
 
 
 
