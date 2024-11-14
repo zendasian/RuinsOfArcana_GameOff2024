@@ -2014,6 +2014,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: player
       objectReference: {fileID: 0}
+    - target: {fileID: 8268417733175870467, guid: 7698452b9bb833947afcc6f02b82c196, type: 3}
+      propertyPath: scanner_cooldown
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
