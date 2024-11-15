@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 public class Scanner_exp : MonoBehaviour
 {
-    [SerializeField]
+ 
     List<GameObject> scanner_list = new List<GameObject>();
     List<float> distance_list = new List<float>();
     public float scanner_range = 5;

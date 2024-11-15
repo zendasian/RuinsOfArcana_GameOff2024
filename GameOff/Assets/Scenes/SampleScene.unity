@@ -2015,6 +2015,10 @@ PrefabInstance:
       value: player
       objectReference: {fileID: 0}
     - target: {fileID: 8268417733175870467, guid: 7698452b9bb833947afcc6f02b82c196, type: 3}
+      propertyPath: scanner_range
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8268417733175870467, guid: 7698452b9bb833947afcc6f02b82c196, type: 3}
       propertyPath: scanner_cooldown
       value: 10
       objectReference: {fileID: 0}

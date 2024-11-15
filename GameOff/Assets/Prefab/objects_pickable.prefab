@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1615183774266593691}
   - component: {fileID: 8300515925216732647}
   - component: {fileID: 4891743671492286813}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: objects_pickable
   m_TagString: items
   m_Icon: {fileID: 0}
@@ -148,3 +148,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: b06aa742ba5f6e0468593145b2d3f623, type: 2}
+  PhaseIndex: 0
