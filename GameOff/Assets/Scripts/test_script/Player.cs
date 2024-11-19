@@ -9,7 +9,6 @@ public class Player : MonoBehaviour
     public float speed = 10f;
     private float  movementAxis = 0f;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();

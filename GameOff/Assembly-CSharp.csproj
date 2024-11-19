@@ -68,10 +68,12 @@
     <Compile Include="Assets\Scripts\test_script\Items_Object.cs" />
     <Compile Include="Assets\Scripts\test_script\Inventory_manager.cs" />
     <Compile Include="Assets\Scripts\test_script\Items.cs" />
+    <Compile Include="Assets\Scripts\test_script\Door_script.cs" />
     <Compile Include="Assets\Scripts\test_script\Item_UI.cs" />
     <Compile Include="Assets\Scripts\test_script\GlobalVariable.cs" />
     <Compile Include="Assets\Scripts\test_script\Scanner.cs" />
     <Compile Include="Assets\Scripts\test_script\DialogueList.cs" />
+    <Compile Include="Assets\Scripts\test_script\Crystal_ball_roatate.cs" />
     <Compile Include="Assets\Scripts\test_script\Player.cs" />
     <Compile Include="Assets\Scripts\test_script\Obselisk.cs" />
     <Compile Include="Assets\Scripts\test_script\Audio_Manager.cs" />

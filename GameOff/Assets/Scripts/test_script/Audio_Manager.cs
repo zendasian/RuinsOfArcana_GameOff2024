@@ -20,8 +20,8 @@ public class Audio_Manager : MonoBehaviour
         }
 
         DontDestroyOnLoad(gameObject);
-        
-        
+
+
         foreach (Sound s in sounds)
         {
             s.source = gameObject.AddComponent<AudioSource>();
@@ -31,21 +31,21 @@ public class Audio_Manager : MonoBehaviour
             s.source.pitch = s.pitch;
             s.source.loop = s.loop;
             s.source.outputAudioMixerGroup = s.MasterMixxer;
-            
+
         }
-        
+
     }
     private void Start()
     {
        // Play("BG_music");
-        
+
     }
 
     public void Play (string name)
     {
         Sound s = Array.Find(sounds, sounds => sounds.name == name);
         s.source.Play();
-        
+
         if (s == null)
             return;
     }
@@ -58,5 +58,5 @@ public class Audio_Manager : MonoBehaviour
         if (s == null)
             return;
     }
-    
+
 }

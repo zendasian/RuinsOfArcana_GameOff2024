@@ -8,6 +8,8 @@ public class GlobalVariable : MonoBehaviour
 
     public static GlobalVariable instance;
 
+    public bool is_puzzle_solved = false;
+
 
     void Awake()
     {
