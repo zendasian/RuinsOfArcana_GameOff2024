@@ -17,7 +17,7 @@ public class Obselisk : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        transform.eulerAngles = new Vector3(0,rotationangle,0);
     }
 
     // Update is called once per frame
