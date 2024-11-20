@@ -10,6 +10,8 @@ public class GlobalVariable : MonoBehaviour
 
     public bool is_puzzle_solved = false;
 
+    public bool is_Typing = false;
+
 
     void Awake()
     {

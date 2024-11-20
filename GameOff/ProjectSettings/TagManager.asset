@@ -8,6 +8,7 @@ TagManager:
   - Globalvariable
   - Spear Head
   - Door
+  - Camera
   layers:
   - Default
   - TransparentFX

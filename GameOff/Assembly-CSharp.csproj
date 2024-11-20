@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\test_script\Scanner.cs" />
     <Compile Include="Assets\Scripts\test_script\DialogueList.cs" />
     <Compile Include="Assets\Scripts\test_script\Crystal_ball_roatate.cs" />
+    <Compile Include="Assets\Scripts\Camera_zoom_zone.cs" />
     <Compile Include="Assets\Scripts\test_script\Player.cs" />
     <Compile Include="Assets\Scripts\test_script\Obselisk.cs" />
     <Compile Include="Assets\Scripts\test_script\Audio_Manager.cs" />

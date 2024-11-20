@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Spear_head
   m_EditorClassIdentifier: 
   name: Spearhead
-  icon: {fileID: 2376382260624694119, guid: 7d21e75f860d2f24099c88d6bd5e96cb, type: 3}
+  icon: {fileID: 21300000, guid: df37ba0274b40254582d716b45f89af6, type: 3}
   description: a spear head maybe we can attach an stick to it to make a spear
   Actions:
   - head
-  cursor: {fileID: 2800000, guid: a9d5d40819bdb024883fc9b1775b0e31, type: 3}
+  cursor: {fileID: 2800000, guid: 636500bc0817e644b8a07101d33e5a50, type: 3}

@@ -34,7 +34,8 @@ public class DialogueSystem : MonoBehaviour
     // Function to display any dialogue passed as a parameter
     public void DisplayDialogue(string dialogue)
     {
-        if (!isTyping)
+
+        if (!GlobalVariable.instance.is_Typing)
         {
             StartCoroutine(TypeDialogue(dialogue));
         }
@@ -43,7 +44,7 @@ public class DialogueSystem : MonoBehaviour
     // Coroutine for the typing effect
     private IEnumerator TypeDialogue(string dialogue)
     {
-        isTyping = true;
+        GlobalVariable.instance.is_Typing = true;
         dialogueText.text = "";
 
         foreach (char letter in dialogue.ToCharArray())
@@ -52,6 +53,12 @@ public class DialogueSystem : MonoBehaviour
             yield return new WaitForSeconds(typingSpeed);
         }
 
-        isTyping = false;
+        
+        Invoke("TextErase", 5.0f);
+    }
+    void TextErase()
+    {
+        dialogueText.text = "";
+        GlobalVariable.instance.is_Typing = false;
     }
 }

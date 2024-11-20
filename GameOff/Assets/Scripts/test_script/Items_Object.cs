@@ -18,7 +18,7 @@ public class Items_Object : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (GameObject.FindGameObjectWithTag("Globalvariable").GetComponent<GlobalVariable>().phase[PhaseIndex])
+        if (GameObject.FindGameObjectWithTag("Globalvariable").GetComponent<GlobalVariable>().phase[PhaseIndex] && !GlobalVariable.instance.is_Typing)
         {
             FindFirstObjectByType<Inventory_manager>().Additems(item, gameObject);
             FindFirstObjectByType<Audio_Manager>().Play("Pickup");
