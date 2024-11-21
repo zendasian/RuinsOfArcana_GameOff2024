@@ -12,6 +12,10 @@ public class Player : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        if (!GlobalVariable.instance.is_next_lvl)
+        {
+            transform.position = GameObject.FindWithTag("Spawn").transform.position ;
+        }
     }
 
     // Update is called once per frame

@@ -9,11 +9,10 @@ using UnityEngine.WSA;
 public class Inventory_manager : MonoBehaviour
 {
 
-    [SerializeField]
-    List<Items> item = new List<Items>();
+    public List<Items> item = new List<Items>();
     [SerializeField]
     List<GameObject> Slots = new List<GameObject>();
-    
+
 
     public Items OGSlot;
 
@@ -36,7 +35,7 @@ public class Inventory_manager : MonoBehaviour
     {
         if (iscustomCursor && Input.GetMouseButtonDown(1))
         {
-           setcursordefault();
+            setcursordefault();
         }
     }
     public void Additems(Items otheritem, GameObject othergameobject)
@@ -60,41 +59,49 @@ public class Inventory_manager : MonoBehaviour
     {
         if (item != null)
         {
-            if (otherItem.Actions != null)
+            if (otherItem.Actions.Contains("key"))
             {
-                if (otherItem.Actions.Contains("key"))
-                {
-                    deleteslot(slotindex,otherItem);
-                    setcursordefault();
-                }
-                else if(iscustomCursor == false)
-                {
-                    Debug.Log("this is a stick");
-
-                    tempItem = otherItem;
-                    tempslotnum = slotindex;
-                    iscustomCursor = true;
-
-                    UnityEngine.Cursor.SetCursor(otherItem.cursor, new Vector2(0,0), CursorMode.Auto);
-
-                }
-                else if(iscustomCursor && otherItem.Actions.Contains("head") && tempItem.Actions.Contains("stick"))
-                {
-                    deleteslot(slotindex, otherItem);
-                    deleteslot(tempslotnum, tempItem);
-                    setcursordefault();
-                    Additems(craft_output[0], null);
-                }
-                else if (iscustomCursor && otherItem.Actions.Contains("stick") && tempItem.Actions.Contains("head"))
-                {
-                    deleteslot(slotindex, otherItem);
-                    deleteslot(tempslotnum, tempItem);
-                    setcursordefault();
-                    Additems(craft_output[0], null);
-                    
-
-                }
+                deleteslot(slotindex, otherItem);
+                setcursordefault();
             }
+            else if (iscustomCursor == false)
+            {
+
+
+                tempItem = otherItem;
+                tempslotnum = slotindex;
+                iscustomCursor = true;
+                Debug.Log(tempItem.name + " - " + tempItem.Actions[0]);
+                UnityEngine.Cursor.SetCursor(otherItem.cursor, new Vector2(0, 0), CursorMode.Auto);
+
+            }
+            else if (iscustomCursor && otherItem.Actions.Contains("head") && tempItem.Actions.Contains("stick"))
+            {
+                deleteslot(slotindex, otherItem);
+                deleteslot(tempslotnum, tempItem);
+                setcursordefault();
+                Additems(craft_output[0], null);
+            }
+            else if (iscustomCursor && otherItem.Actions.Contains("stick") && tempItem.Actions.Contains("head"))
+            {
+                deleteslot(slotindex, otherItem);
+                deleteslot(tempslotnum, tempItem);
+                setcursordefault();
+                Additems(craft_output[0], null);
+            }
+
+        }
+    }
+
+    public void GameObjectInteraction(GameObject othergameobject)
+    {
+        if (tempItem.Actions.Contains("Stone"))
+        {
+            Destroy(othergameobject);
+            deleteslot(tempslotnum, tempItem);
+            setcursordefault();
+            GlobalVariable.instance.is_window_block_remove = true;
+            Action_frame.instance.ActionFrame();
         }
     }
 
@@ -103,7 +110,7 @@ public class Inventory_manager : MonoBehaviour
         Slots[slotindex].GetComponent<Item_UI>().slotItem = OGSlot;
         item.RemoveAt(slotindex);
         Emptyslots.Add(slotindex);
-        
+
         //slotnum--;
     }
 

@@ -17,6 +17,7 @@ public class DialogueSystem : MonoBehaviour
 
     private void Start()
     {
+        dialogueText = GameObject.Find("Dialouges").GetComponent<TextMeshProUGUI>();
         //dialogueList = FindFirstObjectByType<DialogueList>();
     }
 
@@ -54,9 +55,9 @@ public class DialogueSystem : MonoBehaviour
         }
 
         
-        Invoke("TextErase", 5.0f);
+        Invoke("TextErase", 3.0f);
     }
-    void TextErase()
+    public void TextErase()
     {
         dialogueText.text = "";
         GlobalVariable.instance.is_Typing = false;

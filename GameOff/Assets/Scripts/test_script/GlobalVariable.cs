@@ -5,12 +5,12 @@ using UnityEngine;
 public class GlobalVariable : MonoBehaviour
 {
     public bool[] phase = new bool[4];
-
     public static GlobalVariable instance;
-
     public bool is_puzzle_solved = false;
-
     public bool is_Typing = false;
+    public bool is_window_block_remove = false;
+    public bool is_next_lvl = true;
+
 
 
     void Awake()

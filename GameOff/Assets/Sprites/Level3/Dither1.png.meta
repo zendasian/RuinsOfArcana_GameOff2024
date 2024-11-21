@@ -1,0 +1,1157 @@
+fileFormatVersion: 2
+guid: c57dbaa0ff013e2488355ed7348f58e9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1330536535454319514
+    second: Dither1_0
+  - first:
+      213: 4335454697354908889
+    second: Dither1_1
+  - first:
+      213: -8133531973466384450
+    second: Dither1_2
+  - first:
+      213: -5690965871806978229
+    second: Dither1_3
+  - first:
+      213: -1840313904956076683
+    second: Dither1_4
+  - first:
+      213: 7110576478485961780
+    second: Dither1_5
+  - first:
+      213: 3964505877282703421
+    second: Dither1_6
+  - first:
+      213: 9216580364043105973
+    second: Dither1_7
+  - first:
+      213: -1124556661308621997
+    second: Dither1_8
+  - first:
+      213: 767806196670713350
+    second: Dither1_9
+  - first:
+      213: -353911875843729872
+    second: Dither1_10
+  - first:
+      213: 1767339850708724311
+    second: Dither1_11
+  - first:
+      213: 1700193631179419897
+    second: Dither1_12
+  - first:
+      213: -209709373557651543
+    second: Dither1_13
+  - first:
+      213: -4284263838267399644
+    second: Dither1_14
+  - first:
+      213: -2491256927755871629
+    second: Dither1_15
+  - first:
+      213: -7120030164836721636
+    second: Dither1_16
+  - first:
+      213: -7903999796091141256
+    second: Dither1_17
+  - first:
+      213: 8029791858488969616
+    second: Dither1_18
+  - first:
+      213: -8355539625668876307
+    second: Dither1_19
+  - first:
+      213: 7825956488002368753
+    second: Dither1_20
+  - first:
+      213: 1392209414062327116
+    second: Dither1_21
+  - first:
+      213: 6049770433487775527
+    second: Dither1_22
+  - first:
+      213: -3637988052679841903
+    second: Dither1_23
+  - first:
+      213: 9074764425851256485
+    second: Dither1_24
+  - first:
+      213: 8842494170283221693
+    second: Dither1_25
+  - first:
+      213: 9130464639062281588
+    second: Dither1_26
+  - first:
+      213: 547260193491146258
+    second: Dither1_27
+  - first:
+      213: -4692388364112128088
+    second: Dither1_28
+  - first:
+      213: -6553109366882228220
+    second: Dither1_29
+  - first:
+      213: 3977596926508654007
+    second: Dither1_30
+  - first:
+      213: 4134206125093625142
+    second: Dither1_31
+  - first:
+      213: 2173698766146307233
+    second: Dither1_32
+  - first:
+      213: 2964772247981151873
+    second: Dither1_33
+  - first:
+      213: 5659521228825754706
+    second: Dither1_34
+  - first:
+      213: 6549713409421964518
+    second: Dither1_35
+  - first:
+      213: -5073106460271173467
+    second: Dither1_36
+  - first:
+      213: -1375436127525146185
+    second: Dither1_37
+  - first:
+      213: -6351488949042722273
+    second: Dither1_38
+  - first:
+      213: -2123263296412376467
+    second: Dither1_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dither1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 431
+        width: 281
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66cf09b021cf88de0800000000000000
+      internalID: -1330536535454319514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_1
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 703
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d453a7b311aa2c30800000000000000
+      internalID: 4335454697354908889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_2
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 703
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb7114073c3ef1f80800000000000000
+      internalID: -8133531973466384450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_3
+      rect:
+        serializedVersion: 2
+        x: 2223
+        y: 703
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b47e21e01b0a501b0800000000000000
+      internalID: -5690965871806978229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_4
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 703
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d81ebf044e576e0800000000000000
+      internalID: -1840313904956076683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_5
+      rect:
+        serializedVersion: 2
+        x: 2271
+        y: 431
+        width: 289
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c576c32a7dda260800000000000000
+      internalID: 7110576478485961780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_6
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 687
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38426d2711c40730800000000000000
+      internalID: 3964505877282703421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_7
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 687
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b631a2720fd7ef70800000000000000
+      internalID: 9216580364043105973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_8
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 687
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b76e8bca5c460f0800000000000000
+      internalID: -1124556661308621997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_9
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 687
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ec6e8faabc7aa00800000000000000
+      internalID: 767806196670713350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_10
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 687
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 036da862607a61bf0800000000000000
+      internalID: -353911875843729872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_11
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 671
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75aa2eefa3ad68810800000000000000
+      internalID: 1767339850708724311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_12
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 671
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0b4db791d489710800000000000000
+      internalID: 1700193631179419897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_13
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 655
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7c6039f66f61df0800000000000000
+      internalID: -209709373557651543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_14
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 655
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4222504fcbc3b84c0800000000000000
+      internalID: -4284263838267399644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_15
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 655
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a51e006074d6dd0800000000000000
+      internalID: -2491256927755871629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_16
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 623
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c57d2e942903d90800000000000000
+      internalID: -7120030164836721636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_17
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 431
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8734a39001a5f4290800000000000000
+      internalID: -7903999796091141256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_18
+      rect:
+        serializedVersion: 2
+        x: 2511
+        y: 431
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0990f81d62d8f6f60800000000000000
+      internalID: 8029791858488969616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 399
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de76e41eaf82b0c80800000000000000
+      internalID: -8355539625668876307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_20
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 415
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f47b0f46f16b9c60800000000000000
+      internalID: 7825956488002368753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_21
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 415
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45c32af51f125310800000000000000
+      internalID: 1392209414062327116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_22
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 415
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72723bcf72a15f350800000000000000
+      internalID: 6049770433487775527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_23
+      rect:
+        serializedVersion: 2
+        x: 2511
+        y: 415
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19727e61425438dc0800000000000000
+      internalID: -3637988052679841903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_24
+      rect:
+        serializedVersion: 2
+        x: 2527
+        y: 415
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae37374a2a00fd70800000000000000
+      internalID: 9074764425851256485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_25
+      rect:
+        serializedVersion: 2
+        x: 2543
+        y: 415
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2a13c2999d6ba70800000000000000
+      internalID: 8842494170283221693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_26
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 399
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d8295c63de5be70800000000000000
+      internalID: 9130464639062281588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_27
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 399
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21650c81f32489700800000000000000
+      internalID: 547260193491146258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_28
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 399
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a79be8e4a941eeb0800000000000000
+      internalID: -4692388364112128088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_29
+      rect:
+        serializedVersion: 2
+        x: 2527
+        y: 399
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40823bc20cdae05a0800000000000000
+      internalID: -6553109366882228220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_30
+      rect:
+        serializedVersion: 2
+        x: 2543
+        y: 399
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bddb389453433730800000000000000
+      internalID: 3977596926508654007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 383
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63d137a1196af5930800000000000000
+      internalID: 4134206125093625142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_32
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 383
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a40bd4d2878a2e10800000000000000
+      internalID: 2173698766146307233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_33
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 383
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1865ad8c6acf42920800000000000000
+      internalID: 2964772247981151873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_34
+      rect:
+        serializedVersion: 2
+        x: 2543
+        y: 383
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25cf0fa7298aa8e40800000000000000
+      internalID: 5659521228825754706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 367
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4753dd4a145ea50800000000000000
+      internalID: 6549713409421964518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_36
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 367
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a02cc78d84b899b0800000000000000
+      internalID: -5073106460271173467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_37
+      rect:
+        serializedVersion: 2
+        x: 2527
+        y: 367
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b1ff9f112879ece0800000000000000
+      internalID: -1375436127525146185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_38
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 351
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a4d75d37afad7a0800000000000000
+      internalID: -6351488949042722273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dither1_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 335
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6227bc0847a882e0800000000000000
+      internalID: -2123263296412376467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Dither1_0: -1330536535454319514
+      Dither1_1: 4335454697354908889
+      Dither1_10: -353911875843729872
+      Dither1_11: 1767339850708724311
+      Dither1_12: 1700193631179419897
+      Dither1_13: -209709373557651543
+      Dither1_14: -4284263838267399644
+      Dither1_15: -2491256927755871629
+      Dither1_16: -7120030164836721636
+      Dither1_17: -7903999796091141256
+      Dither1_18: 8029791858488969616
+      Dither1_19: -8355539625668876307
+      Dither1_2: -8133531973466384450
+      Dither1_20: 7825956488002368753
+      Dither1_21: 1392209414062327116
+      Dither1_22: 6049770433487775527
+      Dither1_23: -3637988052679841903
+      Dither1_24: 9074764425851256485
+      Dither1_25: 8842494170283221693
+      Dither1_26: 9130464639062281588
+      Dither1_27: 547260193491146258
+      Dither1_28: -4692388364112128088
+      Dither1_29: -6553109366882228220
+      Dither1_3: -5690965871806978229
+      Dither1_30: 3977596926508654007
+      Dither1_31: 4134206125093625142
+      Dither1_32: 2173698766146307233
+      Dither1_33: 2964772247981151873
+      Dither1_34: 5659521228825754706
+      Dither1_35: 6549713409421964518
+      Dither1_36: -5073106460271173467
+      Dither1_37: -1375436127525146185
+      Dither1_38: -6351488949042722273
+      Dither1_39: -2123263296412376467
+      Dither1_4: -1840313904956076683
+      Dither1_5: 7110576478485961780
+      Dither1_6: 3964505877282703421
+      Dither1_7: 9216580364043105973
+      Dither1_8: -1124556661308621997
+      Dither1_9: 767806196670713350
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

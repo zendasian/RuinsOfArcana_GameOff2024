@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 public class Scanner_exp : MonoBehaviour
 {
- 
+    [SerializeField]
     List<GameObject> scanner_list = new List<GameObject>();
     List<float> distance_list = new List<float>();
     public float scanner_range = 5;
@@ -15,9 +15,11 @@ public class Scanner_exp : MonoBehaviour
         {
             scanner_list.AddRange(GameObject.FindGameObjectsWithTag("items"));
             Vector2 playerpos = gameObject.transform.position;
+            Debug.Log(scanner_list.Count);
+            
             foreach (GameObject scanner in scanner_list)
             {
-               distance_list.Add(Vector2.Distance(scanner.transform.position, playerpos));
+                distance_list.Add(Vector2.Distance(scanner.transform.position, playerpos));
             }
             if (distance_list.Min() <= scanner_range)
             {
@@ -27,7 +29,7 @@ public class Scanner_exp : MonoBehaviour
             else
             {
                 Debug.Log("No item found");
-            }   
+            }
             distance_list.Clear();
             scanner_list.Clear();
             is_scannerReady = false;
@@ -44,7 +46,7 @@ public class Scanner_exp : MonoBehaviour
         is_scannerReady = true;
         Debug.Log("Scanner is ready");
     }
-        private void OnDrawGizmosSelected()
+    private void OnDrawGizmosSelected()
     {
         // Visualize the scan radius in the scene view
         Gizmos.color = Color.red;

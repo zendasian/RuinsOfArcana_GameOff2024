@@ -9,6 +9,8 @@ TagManager:
   - Spear Head
   - Door
   - Camera
+  - WindowBlock
+  - Spawn
   layers:
   - Default
   - TransparentFX
