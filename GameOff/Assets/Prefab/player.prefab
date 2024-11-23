@@ -181,7 +181,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34b78de68b6340f4fae2355af5722638, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scanner_range: 5
+  scanner_list: []
+  scanner_range: 6
   scanner_cooldown: 30
 --- !u!114 &3508489782468876710
 MonoBehaviour:

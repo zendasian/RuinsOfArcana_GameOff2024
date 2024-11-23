@@ -59,7 +59,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 1
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -228,7 +228,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8076441337566382399, guid: 2454fc44eb3ecbe4aa52b053c87e9c1e, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 665.8052
+      value: 764.6904
       objectReference: {fileID: 0}
     - target: {fileID: 8076441337566382399, guid: 2454fc44eb3ecbe4aa52b053c87e9c1e, type: 3}
       propertyPath: m_SizeDelta.y

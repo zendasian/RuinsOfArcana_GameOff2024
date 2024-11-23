@@ -30,9 +30,11 @@ public class Obselisk : MonoBehaviour
             transform.eulerAngles = new Vector3(0,rotationangle,0);
             
         }
-        if (correctangle == UnityEditor.TransformUtils.GetInspectorRotation(transform).y)
+        // Define a threshold for angle comparison
+        const float angleThreshold = 0.1f; // Adjust as necessary
+
+        if (Mathf.Abs(Mathf.DeltaAngle(0, transform.localEulerAngles.y) - correctangle) < angleThreshold)
         {
-            
             isagnglecorrect = true; 
         }
     }

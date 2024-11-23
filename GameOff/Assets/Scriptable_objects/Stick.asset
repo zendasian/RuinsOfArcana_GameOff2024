@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Stick
   m_EditorClassIdentifier: 
   name: Stick
-  icon: {fileID: -306787472437928336, guid: 513850c890b6de349ab638b1dacebab2, type: 3}
+  icon: {fileID: 0}
   description: 
   Actions:
   - stick
-  cursor: {fileID: 2800000, guid: 5d1e393bb06851c4286fe526f6204fa3, type: 3}
+  cursor: {fileID: 0}

@@ -1,4 +1,3 @@
-using Microsoft.Unity.VisualStudio.Editor;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -16,7 +15,7 @@ public class Action_frame : MonoBehaviour
     public void ActionFrame()
     {
         gameObject.GetComponent<Animator>().enabled = true;
-        Invoke("ActionFrameEnd", 1f);
+        Invoke("ActionFrameEnd", 0.8f);
     }
     void ActionFrameEnd()
     {

@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class Door_anim_lvl4 : MonoBehaviour
 {
     Animator animator;
@@ -32,5 +32,10 @@ public class Door_anim_lvl4 : MonoBehaviour
     public void ResetAccessDenied()
     {
         animator.SetBool("AccessDenied", false);
+    }
+    public void NextLevel()
+    {
+       SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+       
     }
 }

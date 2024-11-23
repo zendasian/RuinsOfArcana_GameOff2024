@@ -24,6 +24,8 @@ public class Next_lvl : MonoBehaviour
     {
         GlobalVariable.instance.is_next_lvl = false;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        PersistantDataMangaer.instance.SaveGame();
+
     
     }
     

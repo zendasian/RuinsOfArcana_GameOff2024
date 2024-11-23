@@ -9,6 +9,10 @@ public class Items_Object : MonoBehaviour
     private DialogueSystem dialogueSystem;
     public int PhaseIndex;
     public bool is_Pickable = true;
+
+    public bool is_providing = false;
+
+    bool pickable_active = true;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -31,7 +35,13 @@ public class Items_Object : MonoBehaviour
         {
             FindFirstObjectByType<Inventory_manager>().Additems(item, gameObject);
             FindFirstObjectByType<Audio_Manager>().Play("Pickup");
+            dialogueSystem.DisplayDialogue(item.description);
 
+        }
+        if (is_providing && pickable_active)
+        {
+            pickable_active = false;
+            FindFirstObjectByType<Inventory_manager>().Additems(item, null);
         }
 
         //Debug.Log("ClickHandler Working");
@@ -41,8 +51,8 @@ public class Items_Object : MonoBehaviour
         //    string objectTag = item.name;
         //    dialogueSystem.DisplayDialogueByTag(objectTag);
         //}
-        if (is_Pickable)
-            dialogueSystem.DisplayDialogue(item.description);
+      
+            
     }
 
 }
