@@ -17,6 +17,11 @@ public class Statue_manager : MonoBehaviour
         if (statues[0].GetComponent<Statue_click>().is_spearDown && statues[1].GetComponent<Statue_click>().is_spearDown)
         {
             on_statue_done.Invoke();
+            GlobalVariable.instance.is_statue_down = true;
+        }
+        if (GlobalVariable.instance.is_statue_down)
+        {
+            on_statue_done.Invoke();
         }
     }
 }

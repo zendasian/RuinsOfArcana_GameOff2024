@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\test_script\Door_script.cs" />
     <Compile Include="Assets\Scripts\Statue_manager.cs" />
     <Compile Include="Assets\Scripts\DontDestroyonload.cs" />
+    <Compile Include="Assets\Scripts\Skeli_controller.cs" />
     <Compile Include="Assets\Scripts\test_script\Item_UI.cs" />
     <Compile Include="Assets\Scripts\Action_frame.cs" />
     <Compile Include="Assets\Scripts\test_script\GlobalVariable.cs" />
@@ -80,7 +81,6 @@
     <Compile Include="Assets\Scripts\test_script\DialogueList.cs" />
     <Compile Include="Assets\Scripts\test_script\Crystal_ball_roatate.cs" />
     <Compile Include="Assets\Scripts\Camera_zoom_zone.cs" />
-    <Compile Include="Assets\Scripts\Skeli_script.cs" />
     <Compile Include="Assets\Scripts\test_script\Player.cs" />
     <Compile Include="Assets\Scripts\GameData\Level_data.cs" />
     <Compile Include="Assets\Scripts\Statue_click.cs" />

@@ -10,7 +10,7 @@ public class GlobalVariable : MonoBehaviour
     public bool is_Typing = false;
     public bool is_window_block_remove = false;
     public bool is_next_lvl = true;
-
+    public bool is_statue_down = false;
 
 
     void Awake()

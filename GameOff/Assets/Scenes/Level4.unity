@@ -566,6 +566,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 963828336}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &359335444
 GameObject:
   m_ObjectHideFlags: 0
@@ -754,7 +766,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.83, y: 6.4}
   m_EdgeRadius: 0
---- !u!43 &552631124
+--- !u!43 &747553985
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1196,7 +1208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45ad4611d3548e24991edcdc5d6ffe57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: d6c2e4fce38a38f4988920f66b695ae0, type: 2}
+  item: {fileID: 11400000, guid: c0e67b44f01fe494295088e73bb63a50, type: 2}
   PhaseIndex: 0
   is_Pickable: 0
   is_providing: 1

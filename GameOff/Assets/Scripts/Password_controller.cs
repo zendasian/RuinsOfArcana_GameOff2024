@@ -5,6 +5,17 @@ public class Password_controller : MonoBehaviour
 {
     public string password = "2143";
     List<int> password_list = new List<int>();
+    [SerializeField]
+    List<GameObject> password_slots = new List<GameObject>();
+
+    private void Start() 
+    {
+        int child_count = transform.childCount;
+        for (int i = 0; i < child_count; i++)
+        {
+            password_slots.Add(transform.GetChild(i).gameObject);
+        }
+    }
 
     public void set_password(int pass)
     {
@@ -30,7 +41,9 @@ public class Password_controller : MonoBehaviour
     }
     void password_failed()
     {
+
         Debug.Log("Password is incorrect");
+
         //TODO: Add the code to shake the password slots
     }
 }

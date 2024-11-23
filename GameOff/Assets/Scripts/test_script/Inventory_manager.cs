@@ -15,8 +15,8 @@ public class Inventory_manager : MonoBehaviour
 
     public Items OGSlot;
 
-    Items tempItem;
-    int tempslotnum;
+    public Items tempItem;
+    public int tempslotnum;
 
     List<int> Emptyslots = new List<int>();
 
@@ -107,7 +107,7 @@ public class Inventory_manager : MonoBehaviour
     void deleteslot(int slotindex, Items otheritem)
     {
         Slots[slotindex].GetComponent<Item_UI>().slotItem = OGSlot;
-        item.RemoveAt(slotindex);
+        item.Remove(otheritem);
         Emptyslots.Add(slotindex);
 
         //slotnum--;

@@ -12,6 +12,8 @@ public class DialogueSystem : MonoBehaviour
 
     private bool isTyping = false;
 
+    
+
     // Reference to DialogueList component
     //private DialogueList dialogueList;
 
