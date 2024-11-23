@@ -26,6 +26,7 @@ public class obselisk_puzzleController : MonoBehaviour
         {
             Debug.Log("level complete!!!!!!!!!!!!!!!!");
             puzzleSolved.Invoke();
+            GlobalVariable.instance.is_obs_correct = true;
         }
         
     }

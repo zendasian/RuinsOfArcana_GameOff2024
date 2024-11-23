@@ -23,7 +23,7 @@ public class Obselisk : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.X) && isplayercollidig)
+        if (Input.GetKeyDown(KeyCode.E) && isplayercollidig && !GlobalVariable.instance.is_obs_correct)
         {
            
             rotationangle += 120f;
@@ -35,7 +35,7 @@ public class Obselisk : MonoBehaviour
 
         if (Mathf.Abs(Mathf.DeltaAngle(0, transform.localEulerAngles.y) - correctangle) < angleThreshold)
         {
-            isagnglecorrect = true; 
+            isagnglecorrect = true;
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)

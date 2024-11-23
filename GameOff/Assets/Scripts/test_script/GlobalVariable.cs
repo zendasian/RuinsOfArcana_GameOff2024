@@ -11,6 +11,7 @@ public class GlobalVariable : MonoBehaviour
     public bool is_window_block_remove = false;
     public bool is_next_lvl = true;
     public bool is_statue_down = false;
+    public bool is_obs_correct = false;
 
 
     void Awake()
@@ -28,6 +29,7 @@ public class GlobalVariable : MonoBehaviour
     void Start()
     {
         phase[0] = true;
+        is_obs_correct = false;
        
 
     }
