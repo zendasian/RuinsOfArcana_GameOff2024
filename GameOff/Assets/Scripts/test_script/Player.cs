@@ -7,31 +7,50 @@ public class Player : MonoBehaviour
 {
     Rigidbody2D rb;
     public float speed = 10f;
-    private float  movementAxis = 0f;
+    private float movementAxis = 0f;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         if (!GlobalVariable.instance.is_next_lvl)
         {
-            transform.position = GameObject.FindWithTag("Spawn").transform.position ;
+            transform.position = GameObject.FindWithTag("Spawn").transform.position;
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+
     }
     private void FixedUpdate()
     {
 
-        movementAxis = Input.GetAxis("Horizontal");
-         rb.linearVelocityX = Time.deltaTime * speed * movementAxis;
-        
-           
+        if (!GlobalVariable.instance.is_scanning)
+        {
+            if (Input.GetAxis("Horizontal") != 0)
+            {
+                this.GetComponent<Animator>().SetBool("is_walking", true);
+            }
+            else
+            {
+                this.GetComponent<Animator>().SetBool("is_walking", false);
+            }
+            if (Input.GetAxis("Horizontal") > 0)
+            {
+                this.GetComponent<SpriteRenderer>().flipX = false;
+            }
+            else if (Input.GetAxis("Horizontal") < 0)
+            {
+                this.GetComponent<SpriteRenderer>().flipX = true;
+            }
+
+            movementAxis = Input.GetAxis("Horizontal");
+            rb.linearVelocityX = Time.deltaTime * speed * movementAxis;
+        }
+
+
     }
-    
+
     //private void OnTriggerEnter2D(Collider2D collision)
     //{
     //    if (collision.tag == "items")

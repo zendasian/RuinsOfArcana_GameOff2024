@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1313376584194602569}
   - component: {fileID: 8268417733175870467}
   - component: {fileID: 3508489782468876710}
+  - component: {fileID: 6098153412199352358}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -32,7 +33,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -6.61, y: -2.34, z: 0}
-  m_LocalScale: {x: 1.1032, y: 2.4421, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1638639728206065271}
@@ -82,7 +83,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 10
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 5905681027756182028, guid: 2dae486e91591614a9d936bf22033c1b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -127,8 +128,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 1}
+  m_Offset: {x: 0.0072951317, y: -0.010082245}
+  m_Size: {x: 1.0227642, y: 4.412101}
   m_Direction: 0
 --- !u!50 &3827122487410797846
 Rigidbody2D:
@@ -155,7 +156,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!114 &1313376584194602569
 MonoBehaviour:
@@ -238,6 +239,28 @@ MonoBehaviour:
     - rid: 1114675347517341812
       type: {class: ShadowShape2DProvider_SpriteRenderer, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
       data: 
+--- !u!95 &6098153412199352358
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2547294703464332101}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 91fb2e27651f4334db60cdb8fdfe6beb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &5635817560804780856
 GameObject:
   m_ObjectHideFlags: 0
@@ -266,7 +289,7 @@ RectTransform:
   m_GameObject: {fileID: 5635817560804780856}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.008663702, y: 0.003913761, z: 0.009557795}
+  m_LocalScale: {x: 0.01151968, y: 0.01151968, z: 0.01151968}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1193911180757883316}
@@ -274,7 +297,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1.5, y: 0.45}
+  m_AnchoredPosition: {x: 0.18, y: 1.88}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &6866546672884226987
@@ -374,7 +397,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -173.17, y: 51}
+  m_AnchoredPosition: {x: -2, y: 81}
   m_SizeDelta: {x: 635.43, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5130812512206236091

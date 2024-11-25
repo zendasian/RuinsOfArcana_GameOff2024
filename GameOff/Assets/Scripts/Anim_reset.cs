@@ -17,4 +17,8 @@ public class Anim_reset : MonoBehaviour
     {
         GetComponent<Animator>().SetBool("is_active", false);
     }
+    public void reset_anim_password()
+    {
+        GetComponent<Animator>().SetInteger("status_num", 1);
+    }
 }

@@ -12,6 +12,7 @@ TagManager:
   - WindowBlock
   - Spawn
   - Scan_text
+  - puzzle_status
   layers:
   - Default
   - TransparentFX

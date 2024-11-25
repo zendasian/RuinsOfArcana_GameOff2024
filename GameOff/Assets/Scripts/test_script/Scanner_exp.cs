@@ -13,6 +13,8 @@ public class Scanner_exp : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.C) && is_scannerReady)
         {
+            GlobalVariable.instance.is_scanning = true;
+            GetComponent<Animator>().SetBool("is_scanning", true);
             scanner_list.AddRange(GameObject.FindGameObjectsWithTag("items"));
             Vector2 playerpos = gameObject.transform.position;
             Debug.Log(scanner_list.Count);
@@ -44,8 +46,14 @@ public class Scanner_exp : MonoBehaviour
     private void scannerTimer()
     {
         is_scannerReady = true;
+        
 
         Debug.Log("Scanner is ready");
+    }
+    public void scanner_end_anim()
+    {
+        GlobalVariable.instance.is_scanning = false;
+        GetComponent<Animator>().SetBool("is_scanning", false);
     }
     private void OnDrawGizmosSelected()
     {
