@@ -11,11 +11,14 @@ public class Password_controller : MonoBehaviour
     List<GameObject> password_slots = new List<GameObject>();
     public UnityEvent onPasswordComplete;
 
-    Animator status_anim;
+    Animator[] status_anim = new Animator[4];
 
     private void Start() 
     {
-        status_anim = GameObject.FindWithTag("puzzle_status").GetComponent<Animator>();
+        for (int i = 0; i < 4; i++)
+        {
+            status_anim[i] = GameObject.FindGameObjectsWithTag("puzzle_status")[i].GetComponent<Animator>();
+        }
         int child_count = transform.childCount;
         for (int i = 0; i < child_count; i++)
         {
@@ -50,13 +53,19 @@ public class Password_controller : MonoBehaviour
     {
 
         Debug.Log("Password is incorrect");
-        status_anim.SetInteger("status_num", 6);
+        for (int i = 0; i < 4; i++)
+        {
+            status_anim[i].SetBool("Failed", true);
+        }
 
         //TODO: Add the code to shake the password slots
     }
     public void puzzle_complete_anim()
     {
-        status_anim.SetBool("complete", true);
+        for (int i = 0; i < 4; i++)
+        {
+            status_anim[i].SetBool("complete", true);
+        }
     }
 
     

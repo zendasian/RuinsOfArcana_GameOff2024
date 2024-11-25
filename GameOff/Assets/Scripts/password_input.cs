@@ -8,11 +8,11 @@ public class password_input : MonoBehaviour
     Password_controller password_Controller;
     public int password_number;
     bool is_active = true;
-    GameObject status_anim;
+    public GameObject status_anim;
     private void Start()
     {
         password_Controller = GetComponentInParent<Password_controller>();
-        status_anim = GameObject.FindWithTag("puzzle_status");
+        
     }
     private void OnMouseDown()
     {
@@ -21,7 +21,7 @@ public class password_input : MonoBehaviour
         {
             is_active = false;
             password_Controller.set_password(password_number);
-            status_anim.GetComponent<Animator>().SetInteger("status_num", status_anim.GetComponent<Animator>().GetInteger("status_num") + 1);
+            status_anim.GetComponent<Animator>().SetBool("is_active", true);
 
         }
     }
