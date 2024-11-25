@@ -24,11 +24,11 @@ public class Scanner_exp : MonoBehaviour
             if (distance_list.Min() <= scanner_range)
             {
                 int minIndex = distance_list.IndexOf(distance_list.Min());
-                Debug.Log(scanner_list[minIndex].GetComponent<Items_Object>().item.name);
+                Scanner_dialouge.instance.DisplayDialogue(scanner_list[minIndex].GetComponent<Items_Object>().item.hint);
             }
             else
             {
-                Debug.Log("No item found");
+                Scanner_dialouge.instance.DisplayDialogue("Nothing here");
             }
             distance_list.Clear();
             scanner_list.Clear();
@@ -37,13 +37,14 @@ public class Scanner_exp : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.C) && !is_scannerReady)
         {
-            Debug.Log("Scanner is not ready");
+            Scanner_dialouge.instance.DisplayDialogue("Scanner is not ready");
         }
     }
 
     private void scannerTimer()
     {
         is_scannerReady = true;
+
         Debug.Log("Scanner is ready");
     }
     private void OnDrawGizmosSelected()

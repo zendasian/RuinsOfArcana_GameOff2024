@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Crystal
   icon: {fileID: -7204743497541612157, guid: beef3aace3a2f1a4cb85befc2cd03c78, type: 3}
-  description: A sturdy Crystal
+  description: Throwing it could hurt
+  hint: A sturdy crystal
   Actions:
   - Stone
   cursor: {fileID: 2800000, guid: 3fa881f15bb07d1469225a405a1d516c, type: 3}

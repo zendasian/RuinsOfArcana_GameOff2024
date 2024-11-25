@@ -9,7 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1928893839405992383}
-  - component: {fileID: 7544999178133030042}
+  - component: {fileID: 1553340320442647560}
+  - component: {fileID: 7584722701608182955}
   m_Layer: 0
   m_Name: DialogueManager
   m_TagString: Untagged
@@ -32,7 +33,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7544999178133030042
+--- !u!114 &1553340320442647560
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,9 +42,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 5116240526852750543}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d00af10897a10e5419e10004002ead39, type: 3}
+  m_Script: {fileID: 11500000, guid: ff5b2c461505a774c8533bff2b3dd9c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tagDialoguePairs:
-  - tag: Spearhead
-    dialogue: Spear Head collected
+  dialogueText: {fileID: 0}
+  typingSpeed: 0.05
+--- !u!114 &7584722701608182955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5116240526852750543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8d46c46df97f2349a0e35e5ae320b98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

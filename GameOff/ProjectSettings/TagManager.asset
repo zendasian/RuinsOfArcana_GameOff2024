@@ -11,6 +11,7 @@ TagManager:
   - Camera
   - WindowBlock
   - Spawn
+  - Scan_text
   layers:
   - Default
   - TransparentFX

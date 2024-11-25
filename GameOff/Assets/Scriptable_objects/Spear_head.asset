@@ -15,6 +15,7 @@ MonoBehaviour:
   name: Spearhead
   icon: {fileID: 21300000, guid: df37ba0274b40254582d716b45f89af6, type: 3}
   description: a spear head maybe we can attach an stick to it to make a spear
+  hint: a spear head maybe we can attach an stick to it to make a spear
   Actions:
   - head
   cursor: {fileID: 2800000, guid: 636500bc0817e644b8a07101d33e5a50, type: 3}

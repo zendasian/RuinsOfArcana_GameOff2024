@@ -1,12 +1,15 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Password_controller : MonoBehaviour
 {
+    
     public string password = "2143";
     List<int> password_list = new List<int>();
     [SerializeField]
     List<GameObject> password_slots = new List<GameObject>();
+    public UnityEvent onPasswordComplete;
 
     private void Start() 
     {
@@ -36,7 +39,8 @@ public class Password_controller : MonoBehaviour
     }
     void Password_complete()
     {
-        Debug.Log("Password is complete");
+        onPasswordComplete.Invoke();
+        
         //TODO: Add the code to open the door
     }
     void password_failed()
