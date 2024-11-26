@@ -10,6 +10,7 @@ public class Password_controller : MonoBehaviour
     [SerializeField]
     List<GameObject> password_slots = new List<GameObject>();
     public UnityEvent onPasswordComplete;
+    public UnityEvent onPasswordFailed;
 
     Animator[] status_anim = new Animator[4];
 
@@ -51,6 +52,7 @@ public class Password_controller : MonoBehaviour
     }
     void password_failed()
     {
+        onPasswordFailed.Invoke();
 
         Debug.Log("Password is incorrect");
         for (int i = 0; i < 4; i++)
