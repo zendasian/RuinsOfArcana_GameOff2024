@@ -20,12 +20,15 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-
+            // if (Input.GetKeyDown(KeyCode.X))
+            //     GameObject.FindFirstObjectByType<DialogueSystem>().TextErase();s
     }
     private void FixedUpdate()
     {
+        if(GlobalVariable.instance.is_Typing)
+                this.GetComponent<Animator>().SetBool("is_walking", false);
 
-        if (!GlobalVariable.instance.is_scanning)
+        if (!GlobalVariable.instance.is_scanning && !GlobalVariable.instance.is_Typing)
         {
             if (Input.GetAxis("Horizontal") != 0)
             {
@@ -43,6 +46,7 @@ public class Player : MonoBehaviour
             {
                 this.GetComponent<SpriteRenderer>().flipX = true;
             }
+           
 
             movementAxis = Input.GetAxis("Horizontal");
             rb.linearVelocityX = Time.deltaTime * speed * movementAxis;

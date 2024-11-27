@@ -1,3 +1,4 @@
+using System;
 using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -7,11 +8,12 @@ public class Obselisk : MonoBehaviour
     bool isplayercollidig = false;
     [SerializeField, HideInInspector]
     public bool isright;
-
+    bool is_dilouge = false;
     public float correctangle;
 
     [SerializeField]
     float rotationangle = 0f;
+
     
     public bool isagnglecorrect = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -23,13 +25,12 @@ public class Obselisk : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*
         if (Input.GetKeyDown(KeyCode.E) && isplayercollidig && !GlobalVariable.instance.is_obs_correct)
         {
-           
-            rotationangle += 120f;
-            transform.eulerAngles = new Vector3(0,rotationangle,0);
             
         }
+        */
         // Define a threshold for angle comparison
         const float angleThreshold = 0.1f; // Adjust as necessary
 
@@ -37,6 +38,20 @@ public class Obselisk : MonoBehaviour
         {
             isagnglecorrect = true;
         }
+    }
+    void OnMouseDown()
+    {
+        if (!GlobalVariable.instance.is_obs_correct && !GlobalVariable.instance.is_Typing)
+        {
+            rotationangle += 120f;
+            transform.eulerAngles = new Vector3(0,rotationangle,0);
+            if (!GlobalVariable.instance.is_glyph_dialouge)
+            {
+                FindFirstObjectByType<DialogueSystem>().DisplayDialogue("Player: \"These symbols… they must mean something. But what?\"");
+                GlobalVariable.instance.is_glyph_dialouge = true;
+            }
+        }
+
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

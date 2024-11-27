@@ -13,6 +13,7 @@ TagManager:
   - Spawn
   - Scan_text
   - puzzle_status
+  - console
   layers:
   - Default
   - TransparentFX
@@ -47,8 +48,16 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: doorBlock
+    uniqueID: 3817851805
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: door
+    uniqueID: 3430484393
+    locked: 0
   m_RenderingLayers:
   - Default
+  - UI
+  - obs

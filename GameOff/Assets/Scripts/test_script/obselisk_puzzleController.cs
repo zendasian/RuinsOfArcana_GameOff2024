@@ -11,11 +11,13 @@ public class obselisk_puzzleController : MonoBehaviour
 
     int amountofobselisk;
 
+    bool is_dialouge = false;
+
     public UnityEvent puzzleSolved;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-    
+
     }
 
     // Update is called once per frame
@@ -28,6 +30,16 @@ public class obselisk_puzzleController : MonoBehaviour
             puzzleSolved.Invoke();
             GlobalVariable.instance.is_obs_correct = true;
         }
-        
+
+    }
+
+    public void obs_dialouge()
+    {
+        if (!is_dialouge)
+        {
+            is_dialouge = true;
+            GameObject.FindFirstObjectByType<DialogueSystem>().DisplayDialogue("Player: well that did something! That sound… something massive just moved.");
+
+        }
     }
 }

@@ -88,15 +88,18 @@ public class Inventory_manager : MonoBehaviour
                 setcursordefault();
                 Additems(craft_output[0], null);
             }
+            
 
         }
     }
+
 
     public void GameObjectInteraction(GameObject othergameobject)
     {
         if (tempItem.Actions.Contains("Stone"))
         {
             Destroy(othergameobject);
+            GameObject.FindFirstObjectByType<DialogueSystem>().DisplayDialogue(">Player: Fuck that shard analysis anyways, I got an entire temple analysis.");
             deleteslot(tempslotnum, tempItem);
             setcursordefault();
             GlobalVariable.instance.is_window_block_remove = true;
@@ -104,7 +107,7 @@ public class Inventory_manager : MonoBehaviour
         }
     }
 
-    void deleteslot(int slotindex, Items otheritem)
+    public void deleteslot(int slotindex, Items otheritem)
     {
         Slots[slotindex].GetComponent<Item_UI>().slotItem = OGSlot;
         item.Remove(otheritem);
@@ -113,7 +116,7 @@ public class Inventory_manager : MonoBehaviour
         //slotnum--;
     }
 
-    void setcursordefault()
+    public void setcursordefault()
     {
         UnityEngine.Cursor.SetCursor(null, new Vector2(0, 0), CursorMode.Auto);
         iscustomCursor = false;

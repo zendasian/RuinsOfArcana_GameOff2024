@@ -17,7 +17,7 @@ public class password_input : MonoBehaviour
     private void OnMouseDown()
     {
         
-        if (is_active)
+        if (is_active && GlobalVariable.instance.is_console_on)
         {
             is_active = false;
             password_Controller.set_password(password_number);

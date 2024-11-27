@@ -81,7 +81,6 @@
     <Compile Include="Assets\Scripts\test_script\GlobalVariable.cs" />
     <Compile Include="Assets\Scripts\GameData\IPersistanceManager.cs" />
     <Compile Include="Assets\Scripts\test_script\Scanner.cs" />
-    <Compile Include="Assets\Scripts\test_script\DialogueList.cs" />
     <Compile Include="Assets\Scripts\test_script\Crystal_ball_roatate.cs" />
     <Compile Include="Assets\Scripts\Camera_zoom_zone.cs" />
     <Compile Include="Assets\Scripts\Anim_reset.cs" />
@@ -91,6 +90,8 @@
     <Compile Include="Assets\Scripts\GameData\FlieDataHandler.cs" />
     <Compile Include="Assets\Scripts\test_script\Obselisk.cs" />
     <Compile Include="Assets\Scripts\Door_anim_lvl4.cs" />
+    <Compile Include="Assets\Scripts\bridge_fall_block.cs" />
+    <Compile Include="Assets\Scripts\Dialouge_list.cs" />
     <Compile Include="Assets\Scripts\Window_block_remove.cs" />
     <Compile Include="Assets\Scripts\Next_lvl.cs" />
     <Compile Include="Assets\Scripts\test_script\Audio_Manager.cs" />

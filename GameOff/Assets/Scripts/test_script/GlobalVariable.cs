@@ -14,7 +14,8 @@ public class GlobalVariable : MonoBehaviour
     public bool is_obs_correct = false;
     public bool lvl_5_done = false;
     public bool is_scanning = false;
-
+    public bool is_console_on = false;
+    public bool is_glyph_dialouge = false;
 
     void Awake()
     {

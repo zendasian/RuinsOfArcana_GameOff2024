@@ -48,7 +48,7 @@ public class Password_controller : MonoBehaviour
     {
         onPasswordComplete.Invoke();
         
-        //TODO: Add the code to open the door
+        
     }
     void password_failed()
     {
@@ -60,7 +60,7 @@ public class Password_controller : MonoBehaviour
             status_anim[i].SetBool("Failed", true);
         }
 
-        //TODO: Add the code to shake the password slots
+        
     }
     public void puzzle_complete_anim()
     {
