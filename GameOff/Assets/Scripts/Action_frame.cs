@@ -9,10 +9,8 @@ public class Action_frame : MonoBehaviour
     {
         if (instance == null)
             instance = this;
-
-
-
     }
+
     public void ActionFrame()
     {
 

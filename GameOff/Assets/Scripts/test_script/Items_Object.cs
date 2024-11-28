@@ -40,9 +40,17 @@ public class Items_Object : MonoBehaviour
         }
         if (is_providing && pickable_active)
         {
+            FindFirstObjectByType<DialogueSystem>().DisplayDialogue("Player: \"Well, hello there. Looking a little loose, aren’t we?\"");
+            Invoke("dialougeStick", 5f);
+
             pickable_active = false;
             FindFirstObjectByType<Inventory_manager>().Additems(item, null);
         }
+        void dialougeStick()
+        {
+            FindFirstObjectByType<DialogueSystem>().DisplayDialogue("Player: \"whoops...dang it...well, this stick might come in handy later.\"");
+        }
+
 
         //Debug.Log("ClickHandler Working");
         //if (dialogueSystem != null)

@@ -45,7 +45,6 @@ public class Crystal_ball_roatate : MonoBehaviour
             Mathf.Abs(Door_trigger.transform.position.y + 0.64f) < positionThreshold &&
             Mathf.Abs(Door_trigger.transform.position.z - 0.62f) < positionThreshold)
         {
-            Debug.Log(Door_trigger.transform.position);
             GlobalVariable.instance.is_puzzle_solved = true;
             if (!is_typed && !GlobalVariable.instance.is_window_block_remove)
             {

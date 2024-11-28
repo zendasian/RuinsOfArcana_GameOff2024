@@ -24,4 +24,8 @@ public class Statue_manager : MonoBehaviour
             on_statue_done.Invoke();
         }
     }
+    public void statue_down()
+    {
+        FindFirstObjectByType<DialogueSystem>().DisplayDialogue("Player: \"No… way.\"");
+    }
 }

@@ -16,6 +16,7 @@ public class GlobalVariable : MonoBehaviour
     public bool is_scanning = false;
     public bool is_console_on = false;
     public bool is_glyph_dialouge = false;
+    public bool[] is_lvl_dialouge = new bool[5];
 
     void Awake()
     {

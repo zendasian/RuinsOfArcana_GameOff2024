@@ -1,32 +1,37 @@
+using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Next_lvl : MonoBehaviour
 {
+    [SerializeField]
+    private GameObject loadingscreen;
     public bool isNextLvl = false;
-    private void OnTriggerEnter2D(Collider2D other) {
+    private void OnTriggerEnter2D(Collider2D other) 
+    {
+        if (loadingscreen == null)
+            loadingscreen = GameObject.FindWithTag("LoadingScreen");
+
+        
         if (other.CompareTag("Player"))
         {
             if (isNextLvl)
-                Invoke("NextLvl", 0.5f);
+                Invoke("NextLvl", 0f); // Added required time parameter
             else
-                Invoke("PreviousLvl", 0.5f);
+                Invoke("PreviousLvl", 0f);
         }
     }
-    public void NextLvl()
+    private void NextLvl()
     {
         GlobalVariable.instance.is_next_lvl = true;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        FindFirstObjectByType<DialogueSystem>().TextErase();
+        Scene_manager.instance.startIenum(true);
         
     }
-    public void PreviousLvl()
+    private void PreviousLvl()
     {
         GlobalVariable.instance.is_next_lvl = false;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
-        PersistantDataMangaer.instance.SaveGame();
-
-    
+        Scene_manager.instance.startIenum(false);
     }
     
 }

@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 8493ab91b4bc10245856ea00869e9ece
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1623620743688409697
+    second: Director5_0
+  - first:
+      213: -6119734655505664857
+    second: Director5_1
+  - first:
+      213: -4543994368433008343
+    second: Director5_2
+  - first:
+      213: -1681163314837004283
+    second: Director5_3
+  - first:
+      213: -5103937261031921031
+    second: Director5_4
+  - first:
+      213: 8237498138604483843
+    second: Director5_5
+  - first:
+      213: -419647797035793990
+    second: Director5_6
+  - first:
+      213: -944731435556391737
+    second: Director5_7
+  - first:
+      213: 1043131715728247345
+    second: Director5_8
+  - first:
+      213: 5514863320873271162
+    second: Director5_9
+  - first:
+      213: 5823202528802456846
+    second: Director5_10
+  - first:
+      213: -7650289872378816702
+    second: Director5_11
+  - first:
+      213: 3771308132115274050
+    second: Director5_12
+  - first:
+      213: 6868399569890573360
+    second: Director5_13
+  - first:
+      213: -884270865969821081
+    second: Director5_14
+  - first:
+      213: 3272587480325135816
+    second: Director5_15
+  - first:
+      213: 363126656734288400
+    second: Director5_16
+  - first:
+      213: -7322350785080064562
+    second: Director5_17
+  - first:
+      213: -7165386412919491632
+    second: Director5_18
+  - first:
+      213: 3333176268855771709
+    second: Director5_19
+  - first:
+      213: -5604240417387399957
+    second: Director5_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Director5_0
+      rect:
+        serializedVersion: 2
+        x: 4343
+        y: 703
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9d2f72398db779e0800000000000000
+      internalID: -1623620743688409697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Director5_1
+      rect:
+        serializedVersion: 2
+        x: 4655
+        y: 695
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4ffea21c5521ba0800000000000000
+      internalID: -6119734655505664857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Director5_2
+      rect:
+        serializedVersion: 2
+        x: 4911
+        y: 679
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 921dc20723d70f0c0800000000000000
+      internalID: -4543994368433008343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Director5_3
+      rect:
+        serializedVersion: 2
+        x: 4495
+        y: 687
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500e8b15fde4ba8e0800000000000000
+      internalID: -1681163314837004283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Director5_4
+      rect:
+        serializedVersion: 2
+        x: 4159
+        y: 655
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97aef485a1c2b29b0800000000000000
+      internalID: -5103937261031921031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Director5_5
+      rect:
+        serializedVersion: 2
+        x: 4399
+        y: 647
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3053675b9e8715270800000000000000
+      internalID: 8237498138604483843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Director5_6
+      rect:
+        serializedVersion: 2
+        x: 4495
+        y: 663
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab108ee4d8c1d2af0800000000000000
+      internalID: -419647797035793990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Director5_7
+      rect:
+        serializedVersion: 2
+        x: 4631
+        y: 639
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c43487c3c3a3e2f0800000000000000
+      internalID: -944731435556391737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Director5_8
+      rect:
+        serializedVersion: 2
+        x: 4831
+        y: 655
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a0de9c4c2f97e00800000000000000
+      internalID: 1043131715728247345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Director5_9
+      rect:
+        serializedVersion: 2
+        x: 4343
+        y: 647
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f7b79a8fab88c40800000000000000
+      internalID: 5514863320873271162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Director5_10
+      rect:
+        serializedVersion: 2
+        x: 4111
+        y: 623
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e054d68e8db20d050800000000000000
+      internalID: 5823202528802456846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Director5_11
+      rect:
+        serializedVersion: 2
+        x: 4135
+        y: 615
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2479710e4e5b4d590800000000000000
+      internalID: -7650289872378816702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Director5_12
+      rect:
+        serializedVersion: 2
+        x: 4495
+        y: 631
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 249d541d3c0665430800000000000000
+      internalID: 3771308132115274050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Director5_13
+      rect:
+        serializedVersion: 2
+        x: 4703
+        y: 615
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03cf5cab405715f50800000000000000
+      internalID: 6868399569890573360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Director5_14
+      rect:
+        serializedVersion: 2
+        x: 4783
+        y: 615
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a44ac15507ab3f0800000000000000
+      internalID: -884270865969821081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Director5_15
+      rect:
+        serializedVersion: 2
+        x: 4343
+        y: 615
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd9b2579f09a6d20800000000000000
+      internalID: 3272587480325135816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Director5_16
+      rect:
+        serializedVersion: 2
+        x: 4495
+        y: 607
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a5f1735c51a0500800000000000000
+      internalID: 363126656734288400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Director5_17
+      rect:
+        serializedVersion: 2
+        x: 4655
+        y: 615
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec50086a1c8c16a90800000000000000
+      internalID: -7322350785080064562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Director5_18
+      rect:
+        serializedVersion: 2
+        x: 4959
+        y: 591
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d3f583750f6f8c90800000000000000
+      internalID: -7165386412919491632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Director5_19
+      rect:
+        serializedVersion: 2
+        x: 4343
+        y: 599
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3209e61822d14e20800000000000000
+      internalID: 3333176268855771709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Director5_20
+      rect:
+        serializedVersion: 2
+        x: 4111
+        y: 67
+        width: 874
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4bcbd680db932b0800000000000000
+      internalID: -5604240417387399957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Director5_0: -1623620743688409697
+      Director5_1: -6119734655505664857
+      Director5_10: 5823202528802456846
+      Director5_11: -7650289872378816702
+      Director5_12: 3771308132115274050
+      Director5_13: 6868399569890573360
+      Director5_14: -884270865969821081
+      Director5_15: 3272587480325135816
+      Director5_16: 363126656734288400
+      Director5_17: -7322350785080064562
+      Director5_18: -7165386412919491632
+      Director5_19: 3333176268855771709
+      Director5_2: -4543994368433008343
+      Director5_20: -5604240417387399957
+      Director5_3: -1681163314837004283
+      Director5_4: -5103937261031921031
+      Director5_5: 8237498138604483843
+      Director5_6: -419647797035793990
+      Director5_7: -944731435556391737
+      Director5_8: 1043131715728247345
+      Director5_9: 5514863320873271162
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

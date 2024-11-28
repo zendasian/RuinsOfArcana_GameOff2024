@@ -80,12 +80,14 @@ public class Inventory_manager : MonoBehaviour
                 deleteslot(tempslotnum, tempItem);
                 setcursordefault();
                 Additems(craft_output[0], null);
+                FindFirstObjectByType<DialogueSystem>().DisplayDialogue(">Player: \"Lets go hunting\"");
             }
             else if (iscustomCursor && otherItem.Actions.Contains("stick") && tempItem.Actions.Contains("head"))
             {
                 deleteslot(slotindex, otherItem);
                 deleteslot(tempslotnum, tempItem);
                 setcursordefault();
+                FindFirstObjectByType<DialogueSystem>().DisplayDialogue(">Player: \"Lets go hunting\"");
                 Additems(craft_output[0], null);
             }
             

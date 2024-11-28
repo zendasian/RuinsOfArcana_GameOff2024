@@ -14,6 +14,7 @@ TagManager:
   - Scan_text
   - puzzle_status
   - console
+  - LoadingScreen
   layers:
   - Default
   - TransparentFX

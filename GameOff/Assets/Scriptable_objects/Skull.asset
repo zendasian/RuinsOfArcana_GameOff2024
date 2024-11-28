@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Skull
   icon: {fileID: 21300000, guid: f4fc5f4563cf23343ba7975a6f98c9c9, type: 3}
-  description: A skull of Ancient Civilization
+  description: '>?Player: \"woah...that''s heavy\"'
   hint: '>Data Sphere: \"Analysis complete: Alien skeletal remains. Estimated age:
     approximately 4,000 years.\"'
   Actions:

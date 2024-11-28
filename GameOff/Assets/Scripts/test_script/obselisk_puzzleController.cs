@@ -26,7 +26,6 @@ public class obselisk_puzzleController : MonoBehaviour
         //checks if all the children have correct agnle. could have done with for loop but its only three so its fine
         if (obselisks[0].GetComponent<Obselisk>().isagnglecorrect && obselisks[1].GetComponent<Obselisk>().isagnglecorrect && obselisks[2].GetComponent<Obselisk>().isagnglecorrect)
         {
-            Debug.Log("level complete!!!!!!!!!!!!!!!!");
             puzzleSolved.Invoke();
             GlobalVariable.instance.is_obs_correct = true;
         }
