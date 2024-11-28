@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -5,6 +6,10 @@ public class Dialouge_list : MonoBehaviour
 {
     public static Dialouge_list instance;
     DialogueSystem dialogueSystem;
+    [SerializeField]
+    private GameObject LoadingScreen;
+    [SerializeField]
+    private GameObject CS;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
@@ -46,11 +51,54 @@ public class Dialouge_list : MonoBehaviour
             dialogueSystem.DisplayDialogue("Player: \"The temple… it’s just a front. This is a lab…\"");
             GlobalVariable.instance.is_lvl_dialouge[4] = true;
         }
+        if (currentScene.name == "Cutscene1")
+        {
+            StartCoroutine("CS_1_dialouge");
+        }
 
     }
-
-    void Update()
+    private IEnumerator CS_1_dialouge()
     {
+        DialogueSystem dialogueSystem = FindFirstObjectByType<DialogueSystem>();
+        yield return new WaitForSeconds(2f);
+        dialogueSystem.DisplayDialogue(">Sensor: \"Alert: Energy surge detected. \" ");
+        yield return new WaitForSeconds(5f);
+        dialogueSystem.DisplayDialogue(">Player: “Iron-Comet to Cell17. SE region, Arcana Belt. ”");
+        yield return new WaitForSeconds(5f);
+        dialogueSystem.DisplayDialogue(">Detecting a cosmic energy spike at coordinates 3.141, 592, 653.");
+        yield return new WaitForSeconds(6f);
+        dialogueSystem.DisplayDialogue(">Player: “Comms jammed. Guess I’m greenlighting this recon myself.”");
+        yield return new WaitForSeconds(6f);
+        
+        LoadingScreen.SetActive(true);
+        yield return new WaitForSeconds(3f);
+        CS.GetComponent<Animator>().SetTrigger("CS2");
+        LoadingScreen.GetComponent<Animator>().SetTrigger("Outro");
+        yield return new WaitForSeconds(5f);
 
+        dialogueSystem.DisplayDialogue("The dwarf planet appears as the ship approaches.");
+        yield return new WaitForSeconds(5f);
+        dialogueSystem.DisplayDialogue("Player: “A whole planet… just sitting here, unnoticed. Let’s see what it’s hiding.”");
+        yield return new WaitForSeconds(7f);
+
+        LoadingScreen.SetActive(true);
+        yield return new WaitForSeconds(3f);
+        CS.GetComponent<Animator>().SetTrigger("CS3");
+        LoadingScreen.GetComponent<Animator>().SetTrigger("Outro");
+        yield return new WaitForSeconds(5f);
+
+        dialogueSystem.DisplayDialogue("Player: “A temple… that means civilization. Scanning now.”");
+        yield return new WaitForSeconds(5f);
+        dialogueSystem.DisplayDialogue("Data Sphere: “No life detected within 10,000 units.”");
+        yield return new WaitForSeconds(4f);
+        dialogueSystem.DisplayDialogue("Player: “An empty planet with active energy. What happened here?”");
+
+
+        
+
+        yield return null;
     }
+
+
+
 }

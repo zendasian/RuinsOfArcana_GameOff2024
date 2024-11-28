@@ -57,7 +57,7 @@ public class DialogueSystem : MonoBehaviour
         }
 
         
-        Invoke("TextErase", 1.0f);
+        Invoke("TextErase", 2.0f);
     }
     public void TextErase()
     {
