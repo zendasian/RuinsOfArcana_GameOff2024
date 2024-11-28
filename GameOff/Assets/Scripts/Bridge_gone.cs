@@ -16,9 +16,9 @@ public class Bridge_gone : MonoBehaviour
     {
         
     }
-    private void OnCollisionEnter2D(Collision2D other) 
+    private void OnTriggerEnter2D(Collider2D other) 
     {
-        if (other.gameObject.CompareTag("Player") && !isBridgeGone)
+         if (other.gameObject.CompareTag("Player") && !isBridgeGone)
         {
             isBridgeGone = true;
             bridge.GetComponent<Animator>().SetTrigger("Down");

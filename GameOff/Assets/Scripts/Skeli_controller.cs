@@ -24,6 +24,7 @@ public class Skeli_controller : MonoBehaviour
         {
             inventory_manager.item.Remove(item);
             on_skeli_done.Invoke();
+            FindFirstObjectByType<DialogueSystem>().DisplayDialogue("Player: \"oh shit! that worked almost cracked my skull open but it worked\"");
         }
         if (inventory_manager.tempItem == spaer_head)
         {

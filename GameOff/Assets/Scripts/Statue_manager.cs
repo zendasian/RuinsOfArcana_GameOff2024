@@ -4,11 +4,12 @@ public class Statue_manager : MonoBehaviour
 {
     [SerializeField]
     GameObject[] statues;
+    bool is_dialouge = false;
     public UnityEvent on_statue_done;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -26,6 +27,11 @@ public class Statue_manager : MonoBehaviour
     }
     public void statue_down()
     {
-        FindFirstObjectByType<DialogueSystem>().DisplayDialogue("Player: \"No… way.\"");
+        if (!is_dialouge)
+        {
+            FindFirstObjectByType<DialogueSystem>().DisplayDialogue("Player: \"No… way.\"");
+            is_dialouge = true;
+        }
+
     }
 }

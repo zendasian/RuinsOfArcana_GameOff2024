@@ -15,6 +15,6 @@ MonoBehaviour:
   name: tomb
   icon: {fileID: 0}
   description: 
-  hint: '>Data Sphere: \"Structure identified: Tomb. Origin unknown\"'
+  hint: '>Data Sphere: "Structure identified: Tomb. Origin unknown"'
   Actions: []
   cursor: {fileID: 0}

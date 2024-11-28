@@ -38,6 +38,8 @@ public class Obselisk : MonoBehaviour
         {
             isagnglecorrect = true;
         }
+        else
+        isagnglecorrect = false;
     }
     void OnMouseDown()
     {

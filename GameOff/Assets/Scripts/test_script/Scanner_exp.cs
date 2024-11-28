@@ -8,7 +8,7 @@ public class Scanner_exp : MonoBehaviour
     List<float> distance_list = new List<float>();
     public float scanner_range = 5;
     bool is_scannerReady = true;
-    public float scanner_cooldown = 30f;
+    public float scanner_cooldown = 3f;
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.C) && is_scannerReady)

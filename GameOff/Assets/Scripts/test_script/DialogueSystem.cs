@@ -8,7 +8,7 @@ public class DialogueSystem : MonoBehaviour
     public TextMeshProUGUI dialogueText;
 
     [Header("Typing Settings")]
-    public float typingSpeed = 0.03f;
+    public float typingSpeed = 0.01f;
 
     private bool isTyping = false;
 
@@ -57,7 +57,7 @@ public class DialogueSystem : MonoBehaviour
         }
 
         
-        Invoke("TextErase", 2.0f);
+        Invoke("TextErase", 1.0f);
     }
     public void TextErase()
     {
