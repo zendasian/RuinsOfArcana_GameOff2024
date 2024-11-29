@@ -17,6 +17,7 @@ public class Statue_click : MonoBehaviour
       gameObject.GetComponent<Animator>().enabled = true;
       if (this.GetComponent<Items_Object>() != null)
       {
+         Audio_Manager.instance.Play("Statue_click");
          this.GetComponent<Items_Object>().enabled = false;
       }
       

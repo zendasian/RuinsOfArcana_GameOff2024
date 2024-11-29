@@ -6,7 +6,7 @@ public class Item_UI : MonoBehaviour
 {
     public int Slotindex;
 
-    [HideInInspector]
+
     public Items slotItem;
    
     private void Update()

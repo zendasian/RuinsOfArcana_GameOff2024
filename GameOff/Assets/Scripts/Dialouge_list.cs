@@ -33,7 +33,7 @@ public class Dialouge_list : MonoBehaviour
         }
          if (currentScene.name == "Level2" && !GlobalVariable.instance.is_lvl_dialouge[1])
         {
-            dialogueSystem.DisplayDialogue(">Player: \"Oh wow… this is it. They’ll _have_ to let me back into the Guild after this!\" ");
+            dialogueSystem.DisplayDialogue(">Player: \"Oh wow… this is it. They’ll have to let me back into the Guild after this!\" ");
             GlobalVariable.instance.is_lvl_dialouge[1] = true;
         }
         if (currentScene.name == "Level3" && !GlobalVariable.instance.is_lvl_dialouge[2])
@@ -90,7 +90,7 @@ public class Dialouge_list : MonoBehaviour
         dialogueSystem.DisplayDialogue("Player: “A temple… that means civilization. Scanning now.”");
         yield return new WaitForSeconds(5f);
         dialogueSystem.DisplayDialogue("Data Sphere: “No life detected within 10,000 units.”");
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(5f);
         dialogueSystem.DisplayDialogue("Player: “An empty planet with active energy. What happened here?”");
 
 

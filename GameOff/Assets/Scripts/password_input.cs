@@ -24,6 +24,10 @@ public class password_input : MonoBehaviour
             status_anim.GetComponent<Animator>().SetBool("is_active", true);
 
         }
+        if (!GlobalVariable.instance.is_console_on)
+        {
+            FindFirstObjectByType<DialogueSystem>().DisplayDialogue(">Player: \"Nothing happened\"");
+        }
     }
     public void reset_active()
     {

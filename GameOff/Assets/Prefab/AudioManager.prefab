@@ -45,9 +45,72 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - Clip: {fileID: 8300000, guid: 517537d820444d747821ef122b84a9df, type: 3}
+  - Clip: {fileID: 8300000, guid: 8d4470ddea254704a988dd173e6e5361, type: 3}
     name: Pickup
     volume: 0.806
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    MasterMixxer: {fileID: 4868260602976690654, guid: 48b9fce6f2abc004d9579d2aea88f73d, type: 2}
+  - Clip: {fileID: 8300000, guid: caaadae14889e84468231459fc7bd338, type: 3}
+    name: BG_score
+    volume: 0.806
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    MasterMixxer: {fileID: 4868260602976690654, guid: 48b9fce6f2abc004d9579d2aea88f73d, type: 2}
+  - Clip: {fileID: 8300000, guid: f711a550b355ae74dbbd8a20ee69de21, type: 3}
+    name: Window_break
+    volume: 0.806
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    MasterMixxer: {fileID: 4868260602976690654, guid: 48b9fce6f2abc004d9579d2aea88f73d, type: 2}
+  - Clip: {fileID: 8300000, guid: 27c25d815c3c09740841f35a0b9aea6c, type: 3}
+    name: Bridge_move
+    volume: 0.364
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    MasterMixxer: {fileID: 4868260602976690654, guid: 48b9fce6f2abc004d9579d2aea88f73d, type: 2}
+  - Clip: {fileID: 8300000, guid: 2c2a500e446cc72428ef0e45d5f8d880, type: 3}
+    name: Skeleton_fall
+    volume: 0.665
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    MasterMixxer: {fileID: 4868260602976690654, guid: 48b9fce6f2abc004d9579d2aea88f73d, type: 2}
+  - Clip: {fileID: 8300000, guid: 7e221b2638418c04ea861acdb02b8306, type: 3}
+    name: Access_denied
+    volume: 0.665
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    MasterMixxer: {fileID: 4868260602976690654, guid: 48b9fce6f2abc004d9579d2aea88f73d, type: 2}
+  - Clip: {fileID: 8300000, guid: b9f987d90c000344b8bf02ed30aa61b8, type: 3}
+    name: Statue_click
+    volume: 0.665
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    MasterMixxer: {fileID: 4868260602976690654, guid: 48b9fce6f2abc004d9579d2aea88f73d, type: 2}
+  - Clip: {fileID: 8300000, guid: ab18a4d46bc8f1f48b1c68704fdcb9ce, type: 3}
+    name: Console_on
+    volume: 0.809
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    MasterMixxer: {fileID: 4868260602976690654, guid: 48b9fce6f2abc004d9579d2aea88f73d, type: 2}
+  - Clip: {fileID: 8300000, guid: ddb668ae4633ed849819282e5bcfd1f6, type: 3}
+    name: Wrong_password
+    volume: 0.846
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    MasterMixxer: {fileID: 4868260602976690654, guid: 48b9fce6f2abc004d9579d2aea88f73d, type: 2}
+  - Clip: {fileID: 8300000, guid: 807984c7e0eae4e458b603c4bf0836da, type: 3}
+    name: Mind_Phaser_touch
+    volume: 0.545
     pitch: 1
     loop: 0
     source: {fileID: 0}

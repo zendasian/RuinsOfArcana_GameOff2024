@@ -26,10 +26,12 @@ public class Door_anim_lvl4 : MonoBehaviour
         if (inventory_manager.item.Contains(item))
         {
             animator.SetBool("DoorOpen", true);
+            StartCoroutine("AccessGranted");
         }
         else
         {
             animator.SetBool("AccessDenied", true);
+            Audio_Manager.instance.Play("Access_denied");
             if (!is_dialouge)
             {
                 is_dialouge = true;
@@ -56,6 +58,33 @@ public class Door_anim_lvl4 : MonoBehaviour
         dialogueSystem.DisplayDialogue(">Door: \"Access: Denied.\"");
         yield return new WaitForSeconds(4f);
         dialogueSystem.DisplayDialogue(">Player: \"I.....I have to see what's in there. I have to....\"");
+        
+       
+
+        yield return null;
+    }
+    IEnumerator AccessGranted()
+    {
+        DialogueSystem dialogueSystem = FindFirstObjectByType<DialogueSystem>();
+        dialogueSystem.DisplayDialogue(">Door: \"Analysis complete, Lifeform type: Human\"");
+        FindFirstObjectByType<Inventory_manager>().deleteslot(0, item);
+        yield return new WaitForSeconds(5f);
+        dialogueSystem.DisplayDialogue(">Door:\"Access\"");
+        yield return new WaitForSeconds(4f);   
+        dialogueSystem.DisplayDialogue(">Door: \"Denied\"");
+        yield return new WaitForSeconds(4f);
+        dialogueSystem.DisplayDialogue(">Door: \"Authorized personnel detected.\"");
+        yield return new WaitForSeconds(5f);
+        dialogueSystem.DisplayDialogue(">Door: \"Access\"");
+        yield return new WaitForSeconds(4f);
+        dialogueSystem.DisplayDialogue(">Door: \"Granted\"");
+        yield return new WaitForSeconds(4f);
+        GlobalVariable.instance.is_next_lvl = true;
+        Scene_manager.instance.startIenum(true);
+
+
+
+
 
         yield return null;
     }

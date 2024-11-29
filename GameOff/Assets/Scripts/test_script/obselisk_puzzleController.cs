@@ -8,15 +8,26 @@ public class obselisk_puzzleController : MonoBehaviour
 {
     [SerializeField]
     private List<GameObject> obselisks = new List<GameObject>();
+    [SerializeField]
+    private Items spearhead;
 
     int amountofobselisk;
 
     bool is_dialouge = false;
 
     public UnityEvent puzzleSolved;
+    public UnityEvent playerReturns;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+            if (!FindFirstObjectByType<Inventory_manager>().item.Contains(spearhead) && GlobalVariable.instance.is_obs_correct)
+            {
+                puzzleSolved.Invoke();
+            }
+            if(!GlobalVariable.instance.is_next_lvl && GlobalVariable.instance.is_obs_correct && FindFirstObjectByType<Inventory_manager>().item.Contains(spearhead))
+            {
+                playerReturns.Invoke();
+            }
 
     }
 
@@ -27,6 +38,8 @@ public class obselisk_puzzleController : MonoBehaviour
         if (obselisks[0].GetComponent<Obselisk>().isagnglecorrect && obselisks[1].GetComponent<Obselisk>().isagnglecorrect && obselisks[2].GetComponent<Obselisk>().isagnglecorrect)
         {
             puzzleSolved.Invoke();
+            FindFirstObjectByType<Audio_Manager>().Play("Bridge_move");
+            obs_dialouge();
             GlobalVariable.instance.is_obs_correct = true;
         }
 

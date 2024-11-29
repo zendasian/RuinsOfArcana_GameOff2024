@@ -23,7 +23,9 @@ public class Skeli_controller : MonoBehaviour
         if (inventory_manager.tempItem == item)
         {
             inventory_manager.item.Remove(item);
+            inventory_manager.setcursordefault();
             on_skeli_done.Invoke();
+            Audio_Manager.instance.Play("Skeleton_fall");
             FindFirstObjectByType<DialogueSystem>().DisplayDialogue("Player: \"oh shit! that worked almost cracked my skull open but it worked\"");
         }
         if (inventory_manager.tempItem == spaer_head)
@@ -41,7 +43,7 @@ public class Skeli_controller : MonoBehaviour
         if (!Is_dialouge)
         {
             GameObject.FindFirstObjectByType<DialogueSystem>().DisplayDialogue("Player: \"No way… alien remains. The skeletal structure is similar to ours.\"");
-            yield return new WaitForSeconds(5f);
+            yield return new WaitForSeconds(6f);
             GameObject.FindFirstObjectByType<DialogueSystem>().DisplayDialogue("Player: \"Looks like the fella from a height and got caught up there. Can't reach it from here\"");
 
             Is_dialouge = true;

@@ -76,16 +76,25 @@ public class Inventory_manager : MonoBehaviour
             }
             else if (iscustomCursor && otherItem.Actions.Contains("head") && tempItem.Actions.Contains("stick"))
             {
-                deleteslot(slotindex, otherItem);
+                
+                
+               
                 deleteslot(tempslotnum, tempItem);
+                deleteslot(slotindex, otherItem);
+                
+
                 setcursordefault();
+
+                
                 Additems(craft_output[0], null);
                 FindFirstObjectByType<DialogueSystem>().DisplayDialogue(">Player: \"Lets go hunting\"");
             }
             else if (iscustomCursor && otherItem.Actions.Contains("stick") && tempItem.Actions.Contains("head"))
             {
-                deleteslot(slotindex, otherItem);
                 deleteslot(tempslotnum, tempItem);
+                deleteslot(slotindex, otherItem);
+                
+
                 setcursordefault();
                 FindFirstObjectByType<DialogueSystem>().DisplayDialogue(">Player: \"Lets go hunting\"");
                 Additems(craft_output[0], null);
@@ -105,15 +114,18 @@ public class Inventory_manager : MonoBehaviour
             deleteslot(tempslotnum, tempItem);
             setcursordefault();
             GlobalVariable.instance.is_window_block_remove = true;
+            FindFirstObjectByType<Audio_Manager>().Play("Window_break");
             Action_frame.instance.ActionFrame();
         }
     }
 
     public void deleteslot(int slotindex, Items otheritem)
     {
-        Slots[slotindex].GetComponent<Item_UI>().slotItem = OGSlot;
-        item.Remove(otheritem);
-        Emptyslots.Add(slotindex);
+    
+            Slots[slotindex].GetComponent<Item_UI>().slotItem = OGSlot;
+            item.Remove(otheritem);
+            Emptyslots.Add(slotindex);
+        
 
         //slotnum--;
     }
