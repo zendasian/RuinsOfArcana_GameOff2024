@@ -22,7 +22,7 @@ public class Skeli_controller : MonoBehaviour
     {
         if (inventory_manager.tempItem == item)
         {
-            inventory_manager.item.Remove(item);
+            inventory_manager.deleteslot(3, item);
             inventory_manager.setcursordefault();
             on_skeli_done.Invoke();
             Audio_Manager.instance.Play("Skeleton_fall");
@@ -31,6 +31,7 @@ public class Skeli_controller : MonoBehaviour
         if (inventory_manager.tempItem == spaer_head)
         {
             GameObject.FindFirstObjectByType<DialogueSystem>().DisplayDialogue("Player:\"Still too high. Even with this, can’t cut it down.\"");
+            
             inventory_manager.setcursordefault();
         }
         if (!Is_dialouge)

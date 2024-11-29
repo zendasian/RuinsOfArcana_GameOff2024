@@ -31,7 +31,7 @@ public class Dialouge_list : MonoBehaviour
             dialogueSystem.DisplayDialogue(">Player: “This place… it’s incredible, like stepping into another time.”");
             GlobalVariable.instance.is_lvl_dialouge[0] = true;
         }
-         if (currentScene.name == "Level2" && !GlobalVariable.instance.is_lvl_dialouge[1])
+        if (currentScene.name == "Level2" && !GlobalVariable.instance.is_lvl_dialouge[1])
         {
             dialogueSystem.DisplayDialogue(">Player: \"Oh wow… this is it. They’ll have to let me back into the Guild after this!\" ");
             GlobalVariable.instance.is_lvl_dialouge[1] = true;
@@ -69,7 +69,7 @@ public class Dialouge_list : MonoBehaviour
         yield return new WaitForSeconds(6f);
         dialogueSystem.DisplayDialogue(">Player: “Comms jammed. Guess I’m greenlighting this recon myself.”");
         yield return new WaitForSeconds(6f);
-        
+
         LoadingScreen.SetActive(true);
         yield return new WaitForSeconds(3f);
         CS.GetComponent<Animator>().SetTrigger("CS2");
@@ -94,7 +94,19 @@ public class Dialouge_list : MonoBehaviour
         dialogueSystem.DisplayDialogue("Player: “An empty planet with active energy. What happened here?”");
 
 
-        
+
+
+        yield return null;
+    }
+
+    public void dialouge_stick_pickup()
+    {
+        StartCoroutine("Stick_dilouge");
+    }
+    IEnumerator Stick_dilouge()
+    {
+        yield return new WaitForSeconds(5f);
+        FindFirstObjectByType<DialogueSystem>().DisplayDialogue("Player: \"whoops...dang it...well, this stick might come in handy later.\"");
 
         yield return null;
     }

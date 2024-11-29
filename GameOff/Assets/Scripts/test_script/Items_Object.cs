@@ -38,18 +38,15 @@ public class Items_Object : MonoBehaviour
             dialogueSystem.DisplayDialogue(item.description);
 
         }
-        if (is_providing && pickable_active)
+        if (is_providing && GlobalVariable.instance.is_pickable_lvl4)
         {
             FindFirstObjectByType<DialogueSystem>().DisplayDialogue("Player: \"Well, hello there. Looking a little loose, aren’t we?\"");
-            Invoke("dialougeStick", 5f);
+            FindFirstObjectByType<Dialouge_list>().dialouge_stick_pickup();
 
-            pickable_active = false;
+            GlobalVariable.instance.is_pickable_lvl4 = false;
             FindFirstObjectByType<Inventory_manager>().Additems(item, null);
         }
-        void dialougeStick()
-        {
-            FindFirstObjectByType<DialogueSystem>().DisplayDialogue("Player: \"whoops...dang it...well, this stick might come in handy later.\"");
-        }
+        
 
 
         //Debug.Log("ClickHandler Working");

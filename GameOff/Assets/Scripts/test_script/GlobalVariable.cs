@@ -18,6 +18,7 @@ public class GlobalVariable : MonoBehaviour
     public bool is_glyph_dialouge = false;
     public bool[] is_lvl_dialouge = new bool[5];
     public bool is_cryo_dialouge = false;
+    public bool is_pickable_lvl4 = true;
 
     void Awake()
     {
