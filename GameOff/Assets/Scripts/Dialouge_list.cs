@@ -92,6 +92,8 @@ public class Dialouge_list : MonoBehaviour
         dialogueSystem.DisplayDialogue("Data Sphere: “No life detected within 10,000 units.”");
         yield return new WaitForSeconds(5f);
         dialogueSystem.DisplayDialogue("Player: “An empty planet with active energy. What happened here?”");
+        yield return new WaitForSeconds(5f);
+        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
 
 
 
