@@ -50,6 +50,7 @@ public class Door_anim_lvl4 : MonoBehaviour
     }
     IEnumerator AccessDenied()
     {
+        GlobalVariable.instance.is_cutscene = true;
         DialogueSystem dialogueSystem = FindFirstObjectByType<DialogueSystem>();
         dialogueSystem.DisplayDialogue(">Door: \"##### ##### ##### ####............\"");
         yield return new WaitForSeconds(5f);
@@ -58,6 +59,7 @@ public class Door_anim_lvl4 : MonoBehaviour
         dialogueSystem.DisplayDialogue(">Door: \"Access: Denied.\"");
         yield return new WaitForSeconds(4f);
         dialogueSystem.DisplayDialogue(">Player: \"I.....I have to see what's in there. I have to....\"");
+        GlobalVariable.instance.is_cutscene = false;
         
        
 
@@ -65,6 +67,7 @@ public class Door_anim_lvl4 : MonoBehaviour
     }
     IEnumerator AccessGranted()
     {
+        GlobalVariable.instance.is_cutscene = true;
         DialogueSystem dialogueSystem = FindFirstObjectByType<DialogueSystem>();
         dialogueSystem.DisplayDialogue(">Door: \"Analysis complete, Lifeform type: Human\"");
         FindFirstObjectByType<Inventory_manager>().deleteslot(0, item);
@@ -79,6 +82,7 @@ public class Door_anim_lvl4 : MonoBehaviour
         yield return new WaitForSeconds(4f);
         dialogueSystem.DisplayDialogue(">Door: \"Granted\"");
         yield return new WaitForSeconds(4f);
+        GlobalVariable.instance.is_cutscene = false;
         GlobalVariable.instance.is_next_lvl = true;
         Scene_manager.instance.startIenum(true);
 
