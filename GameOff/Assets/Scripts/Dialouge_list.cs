@@ -83,7 +83,7 @@ public class Dialouge_list : MonoBehaviour
         yield return new WaitForSeconds(5f);
 
         dialogueSystem.DisplayDialogue("The dwarf planet appears as the ship approaches.");
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(6f);
         dialogueSystem.DisplayDialogue("Player: “A whole planet… just sitting here, unnoticed. Let’s see what it’s hiding.”");
         yield return new WaitForSeconds(7f);
 

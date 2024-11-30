@@ -29,6 +29,7 @@ private void OnMouseDown()
 }
 IEnumerator Button_Dialuge()
 {
+    FindFirstObjectByType<Audio_Manager>().Play("Console_on");
     FindFirstObjectByType<DialogueSystem>().DisplayDialogue("Player: \"Alright, here goes. Hope this doesn’t trigger another dark matter blast like on Forge World…\"");
 
     yield return null;

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: spear
   m_EditorClassIdentifier: 
   name: Spear
-  icon: {fileID: 21300000, guid: 5fad703d551f64d499ca16263a062d5f, type: 3}
+  icon: {fileID: -5783112775481829103, guid: 5cce413808852af41912b754cebcf470, type: 3}
   description: spear with long range
   hint: 
   Actions:

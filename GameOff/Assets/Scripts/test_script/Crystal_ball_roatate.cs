@@ -20,6 +20,10 @@ public class Crystal_ball_roatate : MonoBehaviour
     bool is_mouse_once = false;
     bool is_door_sound = false;
 
+    bool is_glow = false;
+
+    public UnityEvent CrystalAlinged;
+
     public Vector3 trigger_correct_position;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -50,6 +54,10 @@ public class Crystal_ball_roatate : MonoBehaviour
             if (!is_typed && !GlobalVariable.instance.is_window_block_remove)
             {
                 is_typed = true;
+                if (!is_glow)
+                {
+                    CrystalAlinged.Invoke();
+                }
                 dialogueSystem.DisplayDialogue(">Player: \"No reaction. I must be missing something.\"");
             }
 

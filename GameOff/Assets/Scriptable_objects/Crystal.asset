@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Crystal
   m_EditorClassIdentifier: 
   name: Crystal
-  icon: {fileID: -7204743497541612157, guid: beef3aace3a2f1a4cb85befc2cd03c78, type: 3}
+  icon: {fileID: -7350591980013363154, guid: 48f480d690d46e74493a7ea652048330, type: 3}
   description: ">Player: \"This shard could be useful. I\u2019ll keep it for analysis.\""
   hint: ">Data Sphere: \u201CSilicon-based crystal detected.\u201D"
   Actions:

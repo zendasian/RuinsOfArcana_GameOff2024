@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: EmptySlot
   m_EditorClassIdentifier: 
   name: EmptySlot
-  icon: {fileID: 1217322886662066967, guid: 3f0012e4298fe404a9d73673a4bf29f9, type: 3}
+  icon: {fileID: 21300000, guid: aa5bf422e3d90c74f98eb611ff07ce52, type: 3}
   description: empty slot
+  hint: 
   Actions: []
+  cursor: {fileID: 0}

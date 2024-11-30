@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Spear_head
   m_EditorClassIdentifier: 
   name: Spearhead
-  icon: {fileID: 21300000, guid: df37ba0274b40254582d716b45f89af6, type: 3}
+  icon: {fileID: 5036484524509070435, guid: c2e810134b206204e84cfec42eb25597, type: 3}
   description: '>Player: "Might come handy."'
   hint: '>Data Sphere: "Material detected: Obsidian. Artifact is a broken spearhead"'
   Actions:
