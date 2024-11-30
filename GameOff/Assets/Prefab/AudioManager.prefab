@@ -54,11 +54,11 @@ MonoBehaviour:
     MasterMixxer: {fileID: 4868260602976690654, guid: 48b9fce6f2abc004d9579d2aea88f73d, type: 2}
   - Clip: {fileID: 8300000, guid: caaadae14889e84468231459fc7bd338, type: 3}
     name: BG_score
-    volume: 0.806
+    volume: 0.656
     pitch: 1
     loop: 1
     source: {fileID: 0}
-    MasterMixxer: {fileID: 4868260602976690654, guid: 48b9fce6f2abc004d9579d2aea88f73d, type: 2}
+    MasterMixxer: {fileID: 2595497814231985139, guid: 48b9fce6f2abc004d9579d2aea88f73d, type: 2}
   - Clip: {fileID: 8300000, guid: f711a550b355ae74dbbd8a20ee69de21, type: 3}
     name: Window_break
     volume: 0.806
@@ -111,6 +111,41 @@ MonoBehaviour:
   - Clip: {fileID: 8300000, guid: 807984c7e0eae4e458b603c4bf0836da, type: 3}
     name: Mind_Phaser_touch
     volume: 0.545
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    MasterMixxer: {fileID: 4868260602976690654, guid: 48b9fce6f2abc004d9579d2aea88f73d, type: 2}
+  - Clip: {fileID: 8300000, guid: 8ab0a758debb2954e9c973754b852cd2, type: 3}
+    name: Door_slide
+    volume: 0.706
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    MasterMixxer: {fileID: 4868260602976690654, guid: 48b9fce6f2abc004d9579d2aea88f73d, type: 2}
+  - Clip: {fileID: 8300000, guid: 205e69cd4a6b7f9439d1adcfa3a0d923, type: 3}
+    name: Crystal_move
+    volume: 0.418
+    pitch: 1.72
+    loop: 0
+    source: {fileID: 0}
+    MasterMixxer: {fileID: 4868260602976690654, guid: 48b9fce6f2abc004d9579d2aea88f73d, type: 2}
+  - Clip: {fileID: 8300000, guid: 342a7bd5786518c4786481cfab2a35f9, type: 3}
+    name: Foot_1
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    MasterMixxer: {fileID: 4868260602976690654, guid: 48b9fce6f2abc004d9579d2aea88f73d, type: 2}
+  - Clip: {fileID: 8300000, guid: f36ddf6531dde64478e944dd792edeee, type: 3}
+    name: Foot_2
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    MasterMixxer: {fileID: 4868260602976690654, guid: 48b9fce6f2abc004d9579d2aea88f73d, type: 2}
+  - Clip: {fileID: 8300000, guid: 84a49e5d092344942bb6471687df5628, type: 3}
+    name: Scanner
+    volume: 0.504
     pitch: 1
     loop: 0
     source: {fileID: 0}

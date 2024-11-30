@@ -47,6 +47,9 @@ public class Obselisk : MonoBehaviour
         {
             rotationangle += 120f;
             transform.eulerAngles = new Vector3(0,rotationangle,0);
+
+            Audio_Manager.instance.Play("Crystal_move");
+            
             if (!GlobalVariable.instance.is_glyph_dialouge)
             {
                 FindFirstObjectByType<DialogueSystem>().DisplayDialogue("Player: \"These symbols… they must mean something. But what?\"");

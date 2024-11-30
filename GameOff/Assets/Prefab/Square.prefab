@@ -147,4 +147,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50f1d69ee0929ad4b993180ced14debb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: 
+  dialogue: ">Player: \"What were they doing with them? This\u2026 this feels wrong\""

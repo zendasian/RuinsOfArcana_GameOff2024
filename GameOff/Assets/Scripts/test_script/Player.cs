@@ -25,10 +25,10 @@ public class Player : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        if(GlobalVariable.instance.is_Typing)
+        if(GlobalVariable.instance.is_Typing || GlobalVariable.instance.is_cutscene)
                 this.GetComponent<Animator>().SetBool("is_walking", false);
 
-        if (!GlobalVariable.instance.is_scanning && !GlobalVariable.instance.is_Typing)
+        if (!GlobalVariable.instance.is_scanning && !GlobalVariable.instance.is_Typing && !GlobalVariable.instance.is_cutscene)
         {
             if (Input.GetAxis("Horizontal") != 0)
             {
@@ -53,6 +53,14 @@ public class Player : MonoBehaviour
         }
 
 
+    }
+    public void footStep_1()
+    {
+        FindFirstObjectByType<Audio_Manager>().Play("Foot_1");
+    }
+        public void footStep_2()
+    {
+        FindFirstObjectByType<Audio_Manager>().Play("Foot_2");
     }
 
     //private void OnTriggerEnter2D(Collider2D collision)

@@ -52,7 +52,7 @@ public class Door_anim_lvl4 : MonoBehaviour
     {
         DialogueSystem dialogueSystem = FindFirstObjectByType<DialogueSystem>();
         dialogueSystem.DisplayDialogue(">Door: \"##### ##### ##### ####............\"");
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(5f);
         dialogueSystem.DisplayDialogue(">Door: \"Analysis complete. Lifeform type: Human.\"");
         yield return new WaitForSeconds(5f);
         dialogueSystem.DisplayDialogue(">Door: \"Access: Denied.\"");

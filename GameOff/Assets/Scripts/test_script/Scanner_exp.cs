@@ -18,6 +18,7 @@ public class Scanner_exp : MonoBehaviour
             scanner_list.AddRange(GameObject.FindGameObjectsWithTag("items"));
             Vector2 playerpos = gameObject.transform.position;
             Debug.Log(scanner_list.Count);
+            FindFirstObjectByType<Audio_Manager>().Play("Scanner");
             
             foreach (GameObject scanner in scanner_list)
             {

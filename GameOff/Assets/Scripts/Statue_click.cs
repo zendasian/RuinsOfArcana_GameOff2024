@@ -15,7 +15,7 @@ public class Statue_click : MonoBehaviour
    private void OnMouseDown()
    {
       gameObject.GetComponent<Animator>().enabled = true;
-      if (this.GetComponent<Items_Object>() != null)
+      if (this.GetComponent<Items_Object>().isActiveAndEnabled)
       {
          Audio_Manager.instance.Play("Statue_click");
          this.GetComponent<Items_Object>().enabled = false;

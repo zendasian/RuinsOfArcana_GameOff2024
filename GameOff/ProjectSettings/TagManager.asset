@@ -15,6 +15,8 @@ TagManager:
   - puzzle_status
   - console
   - LoadingScreen
+  - White_screen
+  - Death_scene
   layers:
   - Default
   - TransparentFX

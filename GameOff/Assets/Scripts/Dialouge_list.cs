@@ -4,6 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class Dialouge_list : MonoBehaviour
 {
+    [SerializeField]
+    private GameObject Death_scene;
     public static Dialouge_list instance;
     DialogueSystem dialogueSystem;
     [SerializeField]
@@ -54,6 +56,10 @@ public class Dialouge_list : MonoBehaviour
         if (currentScene.name == "Cutscene1")
         {
             StartCoroutine("CS_1_dialouge");
+        }
+        if (currentScene.name == "Level6")
+        {
+            StartCoroutine("Lvl6_dialouges");
         }
 
     }
@@ -111,6 +117,80 @@ public class Dialouge_list : MonoBehaviour
         FindFirstObjectByType<DialogueSystem>().DisplayDialogue("Player: \"whoops...dang it...well, this stick might come in handy later.\"");
 
         yield return null;
+    }
+    IEnumerator Lvl6_dialouges()
+    {
+        DialogueSystem dialogueSystem = FindFirstObjectByType<DialogueSystem>();
+        GlobalVariable.instance.is_cutscene = true;
+        dialogueSystem.DisplayDialogue(">Voice: \"You touched me… Are you here to hurt me, like the others?\"");
+        yield return new WaitForSeconds(6f);
+        dialogueSystem.DisplayDialogue(">Player: \"No! I’m not like them, I wouldn't hurt anyone\"");
+        yield return new WaitForSeconds(5f);
+        dialogueSystem.DisplayDialogue(">Voice: \"Not like them? Are you sure?\"");
+        yield return new WaitForSeconds(4f);
+        GameObject.FindWithTag("White_screen").GetComponent<Animator>().SetTrigger("Fade_out");
+        yield return new WaitForSeconds(2f);
+        dialogueSystem.DisplayDialogue(">Player: \"Where… where am I?\"");
+        GlobalVariable.instance.is_cutscene =  false;
+
+        yield return null;
+    }
+    public void lvl6_director_ienum()
+    {
+        StartCoroutine("Lvl6_director_dialouges");
+    }
+    public IEnumerator Lvl6_director_dialouges()
+    {
+       
+
+        DialogueSystem dialogueSystem = FindFirstObjectByType<DialogueSystem>();
+        GlobalVariable.instance.is_cutscene = true;
+        dialogueSystem.DisplayDialogue(">Player: \"Director… no. Not again…\"");
+        yield return new WaitForSeconds(4f);
+        dialogueSystem.DisplayDialogue(">Director: \"Still confident in those calculations, Kara? Still so sure of yourself?\"");
+        yield return new WaitForSeconds(7f);
+        dialogueSystem.DisplayDialogue(">Player: \"I’m sorry… I—\"");
+        yield return new WaitForSeconds(4f);
+        dialogueSystem.DisplayDialogue(">Director: \"Sorry? One dead. The rest in comas. All because of you.\"");
+        yield return new WaitForSeconds(6f);
+        dialogueSystem.DisplayDialogue(">Director: \"This wasn’t just a mistake. This was arrogance, Kara. Your arrogance.\"");
+        yield return new WaitForSeconds(7f);
+        dialogueSystem.DisplayDialogue(">Player: \"I didn’t mean to… I didn’t— \"");
+        yield return new WaitForSeconds(4f);
+        dialogueSystem.DisplayDialogue(">Director: \"You’re done. Fired from the Guild. Forever.\"");
+        yield return new WaitForSeconds(5f);
+
+        GameObject.FindWithTag("White_screen").GetComponent<Animator>().SetTrigger("Fade_in");
+        yield return new WaitForSeconds(3f);
+
+        dialogueSystem.DisplayDialogue(">Voice: \"You think they’ll forgive you? You want to use me to crawl back to them?\"");
+        yield return new WaitForSeconds(7f);
+        dialogueSystem.DisplayDialogue(">Player: \"No… I just…I need to make things right\"");
+        yield return new WaitForSeconds(5f);
+        dialogueSystem.DisplayDialogue(">Voice: \"By giving me back to those who will hurt me just like the one before\"");
+        yield return new WaitForSeconds(6f);
+        dialogueSystem.DisplayDialogue(">Voice: \"I won't let you take me\"");
+        yield return new WaitForSeconds(4f);
+        dialogueSystem.DisplayDialogue(">Player: \"no...\"");
+        yield return new WaitForSeconds(3f);
+
+        Death_scene.SetActive(true);
+        yield return new WaitForSeconds(3f);
+        GameObject.FindWithTag("White_screen").GetComponent<Animator>().SetTrigger("Fade_out");
+        dialogueSystem.textColorWhite();
+        yield return new WaitForSeconds(2f);
+
+        dialogueSystem.DisplayDialogue(">Data Sphere: \"Vital signs critical. Warning: Vital signs critical.\"");
+        yield return new WaitForSeconds(6f);
+        dialogueSystem.DisplayDialogue(">Data Sphere: \"No vitals readings detected. Status: Deceased\"");
+        yield return new WaitForSeconds(6f);
+        LoadingScreen.SetActive(true);
+
+       
+
+
+        yield return null;
+
     }
 
 

@@ -18,6 +18,7 @@ public class Crystal_ball_roatate : MonoBehaviour
     bool is_typed_2 = false;
 
     bool is_mouse_once = false;
+    bool is_door_sound = false;
 
     public Vector3 trigger_correct_position;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -63,22 +64,35 @@ public class Crystal_ball_roatate : MonoBehaviour
             {
                 is_typed_2 = true;
                 puzzleSolved.Invoke();
+                door_sound();
             }
 
         }
+    }
+    void door_sound()
+    {
+        if (!is_door_sound)
+        {
+            is_door_sound = true;
+            FindFirstObjectByType<Audio_Manager>().Play("Door_slide");
+        }
+
     }
 
     private void OnMouseDown()
     {
         if (!GlobalVariable.instance.is_puzzle_solved && !GlobalVariable.instance.is_Typing)
+        {
             transform.Rotate(0, 0, 45);
+            Audio_Manager.instance.Play("Crystal_move");
+        }
 
-        if(!is_mouse_once)
+        if (!is_mouse_once)
         {
             is_mouse_once = true;
             GameObject.FindFirstObjectByType<DialogueSystem>().DisplayDialogue("Player: This looks like some kind of mechanism. It’s redirecting a beam of light from that window.");
         }
-        
+
 
 
 

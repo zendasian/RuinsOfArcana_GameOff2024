@@ -185,7 +185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scanner_list: []
   scanner_range: 6
-  scanner_cooldown: 10
+  scanner_cooldown: 4
 --- !u!114 &3508489782468876710
 MonoBehaviour:
   m_ObjectHideFlags: 0

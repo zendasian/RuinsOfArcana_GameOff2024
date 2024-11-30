@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using TMPro;
+using Unity.VisualScripting;
 
 public class DialogueSystem : MonoBehaviour
 {
@@ -42,6 +43,7 @@ public class DialogueSystem : MonoBehaviour
         {
             StartCoroutine(TypeDialogue(dialogue));
         }
+        
     }
 
     // Coroutine for the typing effect
@@ -56,12 +58,17 @@ public class DialogueSystem : MonoBehaviour
             yield return new WaitForSeconds(typingSpeed);
         }
 
-        
+
         Invoke("TextErase", 2.0f);
     }
+    
     public void TextErase()
     {
         dialogueText.text = "";
         GlobalVariable.instance.is_Typing = false;
+    }
+    public void textColorWhite()
+    {
+        dialogueText.color = Color.white;
     }
 }

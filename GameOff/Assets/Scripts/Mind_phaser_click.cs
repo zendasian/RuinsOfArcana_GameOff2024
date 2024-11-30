@@ -23,6 +23,17 @@ public class Mind_phaser_click : MonoBehaviour
     }
     void next_level()
     {
+        Destroy(GameObject.Find("Canvas"));
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+    public void start_phaser()
+    {
+        Invoke("turn_on_trigger", 5f);
+    }
+    void turn_on_trigger()
+    {
+        GetComponent<BoxCollider>().enabled = true;
+    }
+
+
 }

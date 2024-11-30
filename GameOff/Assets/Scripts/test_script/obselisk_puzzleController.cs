@@ -38,7 +38,7 @@ public class obselisk_puzzleController : MonoBehaviour
         if (obselisks[0].GetComponent<Obselisk>().isagnglecorrect && obselisks[1].GetComponent<Obselisk>().isagnglecorrect && obselisks[2].GetComponent<Obselisk>().isagnglecorrect)
         {
             puzzleSolved.Invoke();
-            FindFirstObjectByType<Audio_Manager>().Play("Bridge_move");
+            
             obs_dialouge();
             GlobalVariable.instance.is_obs_correct = true;
         }
@@ -49,6 +49,7 @@ public class obselisk_puzzleController : MonoBehaviour
     {
         if (!is_dialouge)
         {
+            FindFirstObjectByType<Audio_Manager>().Play("Bridge_move");
             is_dialouge = true;
             GameObject.FindFirstObjectByType<DialogueSystem>().DisplayDialogue("Player: well that did something! That sound… something massive just moved.");
 
