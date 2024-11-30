@@ -103,6 +103,7 @@
     <Compile Include="Assets\Scripts\Next_lvl.cs" />
     <Compile Include="Assets\Scripts\test_script\Audio_Manager.cs" />
     <Compile Include="Assets\Scripts\GameData\PersistantDataMangaer.cs" />
+    <Compile Include="Assets\Scripts\Main_Menu_Manager.cs" />
     <Compile Include="Assets\Scripts\test_script\Sound.cs" />
     <Compile Include="Assets\Scripts\Console_button.cs" />
     <Compile Include="Assets\Scripts\test_script\ObjectClickHandler.cs" />
