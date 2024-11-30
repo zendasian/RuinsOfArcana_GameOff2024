@@ -10,6 +10,8 @@ public class Scene_manager : MonoBehaviour
 
     public static Scene_manager instance;
 
+    public bool is_notDestroyed = true;
+
     private void Awake() 
     {
         if (instance == null) 
@@ -20,12 +22,19 @@ public class Scene_manager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        if (is_notDestroyed)
         DontDestroyOnLoad(gameObject);
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
 
+    }
+    private void Update() {
+        if(loadingScreen == null)
+        {
+            GameObject.FindWithTag("LoadingScreen");
+        }
     }
     public void startIenum(bool is_next_lvl)
     {

@@ -167,6 +167,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7005499728382819668, guid: c054e5c945cc8d74e8b65ee4a9b76285, type: 3}
+      propertyPath: should_keep
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8585426996374491675, guid: c054e5c945cc8d74e8b65ee4a9b76285, type: 3}
       propertyPath: m_Name
       value: GlobalVariable
@@ -235,6 +239,10 @@ PrefabInstance:
       propertyPath: loadingScreen
       value: 
       objectReference: {fileID: 1292550957}
+    - target: {fileID: 8012308507061378364, guid: 9d29623578637a348bd2162d89bc5bde, type: 3}
+      propertyPath: is_notDestroyed
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -681,6 +689,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97fe23cb11c82454d86c083849d6c016, type: 3}
+--- !u!114 &1562673248 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7656892058111436065, guid: 97fe23cb11c82454d86c083849d6c016, type: 3}
+  m_PrefabInstance: {fileID: 1562673247}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1748121668
 GameObject:
   m_ObjectHideFlags: 0
@@ -837,6 +856,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 581271040319169417, guid: f6c4487edd269784db5d074d2709e9b2, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 1562673248}
     - target: {fileID: 794676016160529230, guid: f6c4487edd269784db5d074d2709e9b2, type: 3}
       propertyPath: m_Name
       value: DialogueSystemManager

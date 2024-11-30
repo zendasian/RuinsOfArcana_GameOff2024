@@ -21,6 +21,8 @@ public class GlobalVariable : MonoBehaviour
     public bool is_pickable_lvl4 = true;
     public bool is_cutscene = false;
 
+    public bool should_keep = true;
+
     void Awake()
     {
         if (instance == null)
@@ -30,6 +32,7 @@ public class GlobalVariable : MonoBehaviour
             Destroy(gameObject);
             return;
         }
+        if (should_keep)
         DontDestroyOnLoad(gameObject);
     }
    
