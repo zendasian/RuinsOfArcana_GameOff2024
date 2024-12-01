@@ -14,12 +14,20 @@ public class Obselisk : MonoBehaviour
     [SerializeField]
     float rotationangle = 0f;
 
-    
+
     public bool isagnglecorrect = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        transform.eulerAngles = new Vector3(0,rotationangle,0);
+        transform.eulerAngles = new Vector3(0, rotationangle, 0);
+    }
+    private void OnMouseEnter()
+    {
+        UnityEngine.Cursor.SetCursor(GlobalVariable.instance.eye_cursor, new Vector2(24, 24), CursorMode.Auto);
+    }
+    private void OnMouseExit()
+    {
+        UnityEngine.Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
     }
 
     // Update is called once per frame
@@ -39,17 +47,17 @@ public class Obselisk : MonoBehaviour
             isagnglecorrect = true;
         }
         else
-        isagnglecorrect = false;
+            isagnglecorrect = false;
     }
     void OnMouseDown()
     {
         if (!GlobalVariable.instance.is_obs_correct && !GlobalVariable.instance.is_Typing)
         {
             rotationangle += 120f;
-            transform.eulerAngles = new Vector3(0,rotationangle,0);
+            transform.eulerAngles = new Vector3(0, rotationangle, 0);
 
             Audio_Manager.instance.Play("Crystal_move");
-            
+
             if (!GlobalVariable.instance.is_glyph_dialouge)
             {
                 FindFirstObjectByType<DialogueSystem>().DisplayDialogue("Player: \"These symbols… they must mean something. But what?\"");
@@ -62,15 +70,15 @@ public class Obselisk : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            
-            isplayercollidig=true;
+
+            isplayercollidig = true;
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.tag == "Player")
         {
-            
+
             isplayercollidig = false;
         }
     }

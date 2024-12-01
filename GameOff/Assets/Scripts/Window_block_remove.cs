@@ -10,9 +10,9 @@ public class Window_block_remove : MonoBehaviour
     }
 
     // Update is called once per frame
-    private void OnMouseDown() 
+    private void OnMouseDown()
     {
-        Debug.Log("Window block remove");
-        inventory_manager.GameObjectInteraction(gameObject);
+        if (inventory_manager.tempItem != null)
+            inventory_manager.GameObjectInteraction(gameObject);
     }
 }

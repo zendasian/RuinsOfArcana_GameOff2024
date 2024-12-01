@@ -11,7 +11,7 @@ public class Scanner_exp : MonoBehaviour
     public float scanner_cooldown = 3f;
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.C) && is_scannerReady)
+        if (Input.GetKeyDown(KeyCode.E) && is_scannerReady)
         {
             GlobalVariable.instance.is_scanning = true;
             GetComponent<Animator>().SetBool("is_scanning", true);
@@ -40,7 +40,7 @@ public class Scanner_exp : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.C) && !is_scannerReady)
         {
-            Scanner_dialouge.instance.DisplayDialogue("Scanner is not ready");
+            Scanner_dialouge.instance.DisplayDialogue("Data Sphere is not ready");
         }
     }
 

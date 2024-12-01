@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.Events;
 public class Crystal_ball_roatate : MonoBehaviour
 {
+    
 
 
     Collider2D self_collider;
@@ -25,12 +26,21 @@ public class Crystal_ball_roatate : MonoBehaviour
     public UnityEvent CrystalAlinged;
 
     public Vector3 trigger_correct_position;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
 
         self_collider = this.GetComponent<Collider2D>();
         dialogueSystem = FindFirstObjectByType<DialogueSystem>();
+    }
+    private void OnMouseEnter()
+    {
+        UnityEngine.Cursor.SetCursor(GlobalVariable.instance.eye_cursor, new Vector2(24, 24), CursorMode.Auto);
+    }
+    private void OnMouseExit() 
+    {
+        UnityEngine.Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
     }
 
     // Update is called once per frame

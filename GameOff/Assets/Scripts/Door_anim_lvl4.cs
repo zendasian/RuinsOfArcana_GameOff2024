@@ -15,11 +15,13 @@ public class Door_anim_lvl4 : MonoBehaviour
         inventory_manager = FindFirstObjectByType<Inventory_manager>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnMouseEnter()
     {
-
-
+        UnityEngine.Cursor.SetCursor(GlobalVariable.instance.eye_cursor, new Vector2(24, 24), CursorMode.Auto);
+    }
+    private void OnMouseExit() 
+    {
+        UnityEngine.Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
     }
  
     private void OnMouseDown()

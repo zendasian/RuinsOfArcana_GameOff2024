@@ -12,11 +12,11 @@ public class password_input : MonoBehaviour
     private void Start()
     {
         password_Controller = GetComponentInParent<Password_controller>();
-        
+
     }
     private void OnMouseDown()
     {
-        
+
         if (is_active && GlobalVariable.instance.is_console_on)
         {
             is_active = false;
@@ -32,5 +32,15 @@ public class password_input : MonoBehaviour
     public void reset_active()
     {
         is_active = true;
+
+    }
+    private void OnMouseEnter()
+    {
+        if (is_active)
+            UnityEngine.Cursor.SetCursor(GlobalVariable.instance.eye_cursor, new Vector2(24, 24), CursorMode.Auto);
+    }
+    private void OnMouseExit()
+    {
+        UnityEngine.Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
     }
 }

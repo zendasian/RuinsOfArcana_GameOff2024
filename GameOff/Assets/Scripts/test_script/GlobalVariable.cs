@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GlobalVariable : MonoBehaviour
 {
+    public Texture2D eye_cursor;
     public bool[] phase = new bool[4];
     public static GlobalVariable instance;
     public bool is_puzzle_solved = false;

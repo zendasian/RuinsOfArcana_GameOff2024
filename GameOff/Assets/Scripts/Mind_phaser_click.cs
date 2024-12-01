@@ -34,6 +34,14 @@ public class Mind_phaser_click : MonoBehaviour
     {
         GetComponent<BoxCollider>().enabled = true;
     }
+        private void OnMouseEnter()
+    {
+        UnityEngine.Cursor.SetCursor(GlobalVariable.instance.eye_cursor, new Vector2(24, 24), CursorMode.Auto);
+    }
+    private void OnMouseExit() 
+    {
+        UnityEngine.Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
+    }
 
 
 }

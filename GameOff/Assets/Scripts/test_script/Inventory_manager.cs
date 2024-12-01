@@ -65,8 +65,6 @@ public class Inventory_manager : MonoBehaviour
             }
             else if (iscustomCursor == false)
             {
-
-
                 tempItem = otherItem;
                 tempslotnum = slotindex;
                 iscustomCursor = true;
@@ -77,15 +75,11 @@ public class Inventory_manager : MonoBehaviour
             else if (iscustomCursor && otherItem.Actions.Contains("head") && tempItem.Actions.Contains("stick"))
             {
                 
-                
-               
                 deleteslot(tempslotnum, tempItem);
                 deleteslot(slotindex, otherItem);
                 
-
                 setcursordefault();
 
-                
                 Additems(craft_output[0], null);
                 FindFirstObjectByType<DialogueSystem>().DisplayDialogue(">Player: \"Lets go hunting\"");
             }
@@ -94,7 +88,6 @@ public class Inventory_manager : MonoBehaviour
                 deleteslot(tempslotnum, tempItem);
                 deleteslot(slotindex, otherItem);
                 
-
                 setcursordefault();
                 FindFirstObjectByType<DialogueSystem>().DisplayDialogue(">Player: \"Lets go hunting\"");
                 Additems(craft_output[0], null);
@@ -103,8 +96,6 @@ public class Inventory_manager : MonoBehaviour
 
         }
     }
-
-
     public void GameObjectInteraction(GameObject othergameobject)
     {
         if (tempItem.Actions.Contains("Stone"))

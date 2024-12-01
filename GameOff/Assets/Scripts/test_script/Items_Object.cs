@@ -28,6 +28,7 @@ public class Items_Object : MonoBehaviour
     {
         dialogueSystem = FindFirstObjectByType<DialogueSystem>();
     }
+    
 
     private void OnMouseDown()
     {

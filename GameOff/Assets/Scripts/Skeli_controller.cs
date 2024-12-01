@@ -14,10 +14,15 @@ public class Skeli_controller : MonoBehaviour
         inventory_manager = FindFirstObjectByType<Inventory_manager>();
     }
 
-    void Update()
-    {
-        
+    private void OnMouseEnter()
+    {   if(!Is_dialouge)
+        UnityEngine.Cursor.SetCursor(GlobalVariable.instance.eye_cursor, new Vector2(24, 24), CursorMode.Auto);
     }
+    private void OnMouseExit() 
+    {
+        UnityEngine.Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
+    }
+
     private void OnMouseDown() 
     {
         if (inventory_manager.tempItem == item)

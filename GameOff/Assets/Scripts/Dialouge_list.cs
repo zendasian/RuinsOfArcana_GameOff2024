@@ -12,6 +12,8 @@ public class Dialouge_list : MonoBehaviour
     private GameObject LoadingScreen;
     [SerializeField]
     private GameObject CS;
+    [SerializeField]
+    private GameObject document;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
@@ -66,6 +68,7 @@ public class Dialouge_list : MonoBehaviour
     private IEnumerator CS_1_dialouge()
     {
         DialogueSystem dialogueSystem = FindFirstObjectByType<DialogueSystem>();
+        FindFirstObjectByType<Audio_Manager>().Play("Energy_surge");
         yield return new WaitForSeconds(2f);
         dialogueSystem.DisplayDialogue(">Sensor: \"Alert: Energy surge detected. \" ");
         yield return new WaitForSeconds(5f);
@@ -75,8 +78,11 @@ public class Dialouge_list : MonoBehaviour
         yield return new WaitForSeconds(6f);
         dialogueSystem.DisplayDialogue(">Player: “Comms jammed. Guess I’m greenlighting this recon myself.”");
         yield return new WaitForSeconds(6f);
+        Audio_Manager.instance.Stop("Intro_BG");
+        Audio_Manager.instance.Stop("Energy_surge");
 
         LoadingScreen.SetActive(true);
+        Audio_Manager.instance.Play("Planet_reveal");
         yield return new WaitForSeconds(3f);
         CS.GetComponent<Animator>().SetTrigger("CS2");
         LoadingScreen.GetComponent<Animator>().SetTrigger("Outro");
@@ -131,7 +137,7 @@ public class Dialouge_list : MonoBehaviour
         GameObject.FindWithTag("White_screen").GetComponent<Animator>().SetTrigger("Fade_out");
         yield return new WaitForSeconds(2f);
         dialogueSystem.DisplayDialogue(">Player: \"Where… where am I?\"");
-        GlobalVariable.instance.is_cutscene =  false;
+        GlobalVariable.instance.is_cutscene = false;
 
         yield return null;
     }
@@ -141,7 +147,7 @@ public class Dialouge_list : MonoBehaviour
     }
     public IEnumerator Lvl6_director_dialouges()
     {
-       
+
 
         DialogueSystem dialogueSystem = FindFirstObjectByType<DialogueSystem>();
         GlobalVariable.instance.is_cutscene = true;
@@ -185,8 +191,31 @@ public class Dialouge_list : MonoBehaviour
         dialogueSystem.DisplayDialogue(">Data Sphere: \"No vitals readings detected. Status: Deceased\"");
         yield return new WaitForSeconds(6f);
         LoadingScreen.SetActive(true);
+        yield return new WaitForSeconds(2f);
 
-       
+        document.SetActive(true);
+
+        dialogueSystem.DisplayDialogue(">voice one: \"Subject: Dr. Kara Thorne. Former lead researcher of the Guild. Current affiliation: Cell 17. \"");
+        yield return new WaitForSeconds(8f);
+        dialogueSystem.DisplayDialogue(">voice one:  \"Last known coordinates: 3.141, 592, 653, SE region, Arcana Belt\"");
+        yield return new WaitForSeconds(7f);
+        dialogueSystem.DisplayDialogue("> voice one: \"Interesting... nothing was discovered there. A practically unexplorable zone.\"");
+        yield return new WaitForSeconds(8f);
+        dialogueSystem.DisplayDialogue(">voice two: \"But she found something. A surge... that we didn’t\"");
+        yield return new WaitForSeconds(6f);
+        document.GetComponent<Animator>().enabled = true;
+        dialogueSystem.DisplayDialogue(">voice one: \"Data purge initiated.\"");
+        yield return new WaitForSeconds(4f);
+        dialogueSystem.DisplayDialogue(">voice two: \"Send in the recon teams.\"");
+        yield return new WaitForSeconds(5f);
+        dialogueSystem.DisplayDialogue(">voice one: \"What if we really find it, sire?\"");
+        yield return new WaitForSeconds(5f);
+        dialogueSystem.DisplayDialogue(">Voice  two: \"We mobilize the Mothership\"");
+
+
+
+
+
 
 
         yield return null;

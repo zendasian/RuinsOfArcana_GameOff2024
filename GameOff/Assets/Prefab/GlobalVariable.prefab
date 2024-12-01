@@ -44,4 +44,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b2213d856e3c81458ba4841af68463c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  eye_cursor: {fileID: 2800000, guid: ac2031255f6516046995629c97a6763f, type: 3}
   phase: 00000000
+  is_puzzle_solved: 0
+  is_Typing: 0
+  is_window_block_remove: 0
+  is_next_lvl: 1
+  is_statue_down: 0
+  is_obs_correct: 0
+  lvl_5_done: 0
+  is_scanning: 0
+  is_console_on: 0
+  is_glyph_dialouge: 0
+  is_lvl_dialouge: 0000000000
+  is_cryo_dialouge: 0
+  is_pickable_lvl4: 1
+  is_cutscene: 0
+  should_keep: 1

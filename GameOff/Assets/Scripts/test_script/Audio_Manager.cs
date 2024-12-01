@@ -37,7 +37,7 @@ public class Audio_Manager : MonoBehaviour
     }
     private void Start()
     {
-       Play("BG_score");
+       Play("Intro_BG");
 
     }
 

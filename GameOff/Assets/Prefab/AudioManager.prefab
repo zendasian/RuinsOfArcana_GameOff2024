@@ -54,7 +54,7 @@ MonoBehaviour:
     MasterMixxer: {fileID: 4868260602976690654, guid: 48b9fce6f2abc004d9579d2aea88f73d, type: 2}
   - Clip: {fileID: 8300000, guid: fe4a51d956ab1a2449d437278339c107, type: 3}
     name: BG_score
-    volume: 0.656
+    volume: 0.6
     pitch: 1
     loop: 1
     source: {fileID: 0}
@@ -150,3 +150,31 @@ MonoBehaviour:
     loop: 0
     source: {fileID: 0}
     MasterMixxer: {fileID: 4868260602976690654, guid: 48b9fce6f2abc004d9579d2aea88f73d, type: 2}
+  - Clip: {fileID: 8300000, guid: 635e1052ea920784282e817e33592481, type: 3}
+    name: Energy_surge
+    volume: 0.656
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    MasterMixxer: {fileID: 4868260602976690654, guid: 48b9fce6f2abc004d9579d2aea88f73d, type: 2}
+  - Clip: {fileID: 8300000, guid: e3e3ae6833f83784e9074485d9e89769, type: 3}
+    name: Intro_BG
+    volume: 0.6
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    MasterMixxer: {fileID: 2595497814231985139, guid: 48b9fce6f2abc004d9579d2aea88f73d, type: 2}
+  - Clip: {fileID: 8300000, guid: daa00b86f4bd04044930bc1da5d8a679, type: 3}
+    name: Planet_reveal
+    volume: 0.6
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    MasterMixxer: {fileID: 4868260602976690654, guid: 48b9fce6f2abc004d9579d2aea88f73d, type: 2}
+  - Clip: {fileID: 8300000, guid: ea169731386ee544986ab6ec02205105, type: 3}
+    name: Reveal_full
+    volume: 0.6
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    MasterMixxer: {fileID: 2595497814231985139, guid: 48b9fce6f2abc004d9579d2aea88f73d, type: 2}
