@@ -15,7 +15,7 @@ public class Skeli_controller : MonoBehaviour
     }
 
     private void OnMouseEnter()
-    {   if(!Is_dialouge)
+    {   if(!Is_dialouge && !FindFirstObjectByType<Inventory_manager>().iscustomCursor)
         UnityEngine.Cursor.SetCursor(GlobalVariable.instance.eye_cursor, new Vector2(24, 24), CursorMode.Auto);
     }
     private void OnMouseExit() 
@@ -46,7 +46,7 @@ public class Skeli_controller : MonoBehaviour
     }
     private IEnumerator Startclickdialouge()
     {
-        if (!Is_dialouge)
+        if (!Is_dialouge && GlobalVariable.instance.is_next_lvl)
         {
             GameObject.FindFirstObjectByType<DialogueSystem>().DisplayDialogue("Player: \"No way… alien remains. The skeletal structure is similar to ours.\"");
             yield return new WaitForSeconds(6f);

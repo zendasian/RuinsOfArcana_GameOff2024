@@ -20,7 +20,7 @@ public class Inventory_manager : MonoBehaviour
 
     List<int> Emptyslots = new List<int>();
 
-    bool iscustomCursor = false;
+    public bool iscustomCursor = false;
 
     [SerializeField]
     List<Items> craft_output = new List<Items>();
