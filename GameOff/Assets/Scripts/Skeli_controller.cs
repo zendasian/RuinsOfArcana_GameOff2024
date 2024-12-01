@@ -50,7 +50,7 @@ public class Skeli_controller : MonoBehaviour
         {
             GameObject.FindFirstObjectByType<DialogueSystem>().DisplayDialogue("Player: \"No way… alien remains. The skeletal structure is similar to ours.\"");
             yield return new WaitForSeconds(6f);
-            GameObject.FindFirstObjectByType<DialogueSystem>().DisplayDialogue("Player: \"Looks like the fella from a height and got caught up there. Can't reach it from here\"");
+            GameObject.FindFirstObjectByType<DialogueSystem>().DisplayDialogue("Player: \"Looks like fella from a height and got caught up there. Can't reach it from here\"");
 
             Is_dialouge = true;
         }

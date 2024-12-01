@@ -21,6 +21,15 @@ public class Main_Menu_Manager : MonoBehaviour
     {
         Application.Quit();
     }
+    public void Continue_button()
+    {
+        Audio_Manager.instance.Stop("Reveal_full");
+        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+    public void Main_Menu_button()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
 
 
 

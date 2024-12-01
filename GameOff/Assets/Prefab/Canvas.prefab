@@ -151,8 +151,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.295, y: 0.513}
-  m_SizeDelta: {x: 4.137012, y: 1.034253}
+  m_AnchoredPosition: {x: -0.2887904, y: 0.513}
+  m_SizeDelta: {x: 4.13155, y: 1.034253}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5953145405467441994
 CanvasRenderer:
@@ -202,7 +202,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 865862301250355491, guid: 91eedaae0a104814881efebc89dadd86, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.8527669
+      value: -0.8
       objectReference: {fileID: 0}
     - target: {fileID: 1410190130741421494, guid: 91eedaae0a104814881efebc89dadd86, type: 3}
       propertyPath: m_LocalScale.x
@@ -258,7 +258,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1468300125616733980, guid: 91eedaae0a104814881efebc89dadd86, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.14276688
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 1468300125616733980, guid: 91eedaae0a104814881efebc89dadd86, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -290,19 +290,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5295950380807215806, guid: 91eedaae0a104814881efebc89dadd86, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1.2234138
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 5295950380807215806, guid: 91eedaae0a104814881efebc89dadd86, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.5214889
+      value: 0.51
       objectReference: {fileID: 0}
     - target: {fileID: 5510614671291538272, guid: 91eedaae0a104814881efebc89dadd86, type: 3}
       propertyPath: m_Name
       value: InventoryManager
       objectReference: {fileID: 0}
+    - target: {fileID: 8198542142796934685, guid: 91eedaae0a104814881efebc89dadd86, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -1.8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 3689040435592188513, guid: 91eedaae0a104814881efebc89dadd86, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 1410190130741421494, guid: 91eedaae0a104814881efebc89dadd86, type: 3}
       insertIndex: 0

@@ -109,7 +109,7 @@ public class Dialouge_list : MonoBehaviour
         yield return new WaitForSeconds(5f);
         dialogueSystem.DisplayDialogue("Player: “An empty planet with active energy. What happened here?”");
         yield return new WaitForSeconds(5f);
-        Audio_Manager.instance.Stop("Reveal_full");
+        
         SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
 
 
@@ -198,31 +198,35 @@ public class Dialouge_list : MonoBehaviour
         LoadingScreen.SetActive(true);
         yield return new WaitForSeconds(2f);
 
-        document.SetActive(true);
+        
 
         dialogueSystem.DisplayDialogue("One Cycle later");
         yield return new WaitForSeconds(3f);
 
+        document.SetActive(true);
         dialogueSystem.DisplayDialogue(">voice one: \"Subject: Dr. Kara Thorne. \"");
         yield return new WaitForSeconds(4f);
         dialogueSystem.DisplayDialogue(">voice one: \"Former lead researcher of the Guild\"");
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(5f);
         dialogueSystem.DisplayDialogue(">voice one: \"Current affiliation: Cell 17.\"");
         yield return new WaitForSeconds(4f);
         dialogueSystem.DisplayDialogue(">voice one:  \"Last known coordinates: 3.141, 592, 653, SE region, Arcana Belt\"");
-        yield return new WaitForSeconds(7f);
+        yield return new WaitForSeconds(6f);
         dialogueSystem.DisplayDialogue("> voice one: \"Interesting... nothing was discovered there. A practically unexplorable zone.\"");
         yield return new WaitForSeconds(8f);
         dialogueSystem.DisplayDialogue(">voice two: \"But she found something. A surge... that we didn’t\"");
         yield return new WaitForSeconds(6f);
-        document.GetComponent<Animator>().enabled = true;
+        document.GetComponent<Animator>().SetTrigger("Anim");
         dialogueSystem.DisplayDialogue(">voice one: \"Data purge initiated.\"");
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(5f);
+        document.GetComponent<Animator>().SetTrigger("Fade_out");
         dialogueSystem.DisplayDialogue(">voice two: \"Send in the recon teams.\"");
         yield return new WaitForSeconds(5f);
         dialogueSystem.DisplayDialogue(">voice one: \"What if we really find it, sire?\"");
         yield return new WaitForSeconds(5f);
         dialogueSystem.DisplayDialogue(">Voice  two: \"We mobilize the Mothership\"");
+        yield return new WaitForSeconds(7f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
 
 
