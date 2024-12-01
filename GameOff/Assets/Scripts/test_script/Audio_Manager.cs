@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 using System;
+using UnityEngine.SceneManagement;
 public class Audio_Manager : MonoBehaviour
 {
 
@@ -37,11 +38,13 @@ public class Audio_Manager : MonoBehaviour
     }
     private void Start()
     {
-       Play("Intro_BG");
+        Scene currentScene = SceneManager.GetActiveScene();
+        if (currentScene.name == "MainMenu")
+            Play("Intro_BG");
 
     }
 
-    public void Play (string name)
+    public void Play(string name)
     {
         Sound s = Array.Find(sounds, sounds => sounds.name == name);
         s.source.Play();
@@ -50,7 +53,7 @@ public class Audio_Manager : MonoBehaviour
             return;
     }
 
-    public void Stop (string name)
+    public void Stop(string name)
     {
         Sound s = Array.Find(sounds, sounds => sounds.name == name);
         s.source.Stop();

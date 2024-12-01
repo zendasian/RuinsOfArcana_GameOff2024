@@ -92,6 +92,7 @@
     <Compile Include="Assets\Scripts\Camera_zoom_zone.cs" />
     <Compile Include="Assets\Scripts\Anim_reset.cs" />
     <Compile Include="Assets\Scripts\test_script\Player.cs" />
+    <Compile Include="Assets\Scripts\Window_new_remover.cs" />
     <Compile Include="Assets\Scripts\GameData\Level_data.cs" />
     <Compile Include="Assets\Scripts\Statue_click.cs" />
     <Compile Include="Assets\Scripts\GameData\FlieDataHandler.cs" />

@@ -33,6 +33,7 @@ public class Dialouge_list : MonoBehaviour
         if (currentScene.name == "Level1" && !GlobalVariable.instance.is_lvl_dialouge[0])
         {
             dialogueSystem.DisplayDialogue(">Player: “This place… it’s incredible, like stepping into another time.”");
+            Audio_Manager.instance.Play("BG_score");
             GlobalVariable.instance.is_lvl_dialouge[0] = true;
         }
         if (currentScene.name == "Level2" && !GlobalVariable.instance.is_lvl_dialouge[1])
@@ -68,7 +69,7 @@ public class Dialouge_list : MonoBehaviour
     private IEnumerator CS_1_dialouge()
     {
         DialogueSystem dialogueSystem = FindFirstObjectByType<DialogueSystem>();
-        FindFirstObjectByType<Audio_Manager>().Play("Energy_surge");
+        Audio_Manager.instance.Play("Energy_surge");
         yield return new WaitForSeconds(2f);
         dialogueSystem.DisplayDialogue(">Sensor: \"Alert: Energy surge detected. \" ");
         yield return new WaitForSeconds(5f);
@@ -92,9 +93,12 @@ public class Dialouge_list : MonoBehaviour
         yield return new WaitForSeconds(6f);
         dialogueSystem.DisplayDialogue("Player: “A whole planet… just sitting here, unnoticed. Let’s see what it’s hiding.”");
         yield return new WaitForSeconds(7f);
+        Audio_Manager.instance.Stop("Planet_reveal");
 
         LoadingScreen.SetActive(true);
+        
         yield return new WaitForSeconds(3f);
+        Audio_Manager.instance.Play("Reveal_full");
         CS.GetComponent<Animator>().SetTrigger("CS3");
         LoadingScreen.GetComponent<Animator>().SetTrigger("Outro");
         yield return new WaitForSeconds(5f);
@@ -105,6 +109,7 @@ public class Dialouge_list : MonoBehaviour
         yield return new WaitForSeconds(5f);
         dialogueSystem.DisplayDialogue("Player: “An empty planet with active energy. What happened here?”");
         yield return new WaitForSeconds(5f);
+        Audio_Manager.instance.Stop("Reveal_full");
         SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1);
 
 
@@ -187,7 +192,7 @@ public class Dialouge_list : MonoBehaviour
         yield return new WaitForSeconds(2f);
 
         dialogueSystem.DisplayDialogue(">Data Sphere: \"Vital signs critical. Warning: Vital signs critical.\"");
-        yield return new WaitForSeconds(6f);
+        yield return new WaitForSeconds(7f);
         dialogueSystem.DisplayDialogue(">Data Sphere: \"No vitals readings detected. Status: Deceased\"");
         yield return new WaitForSeconds(6f);
         LoadingScreen.SetActive(true);
@@ -195,8 +200,15 @@ public class Dialouge_list : MonoBehaviour
 
         document.SetActive(true);
 
-        dialogueSystem.DisplayDialogue(">voice one: \"Subject: Dr. Kara Thorne. Former lead researcher of the Guild. Current affiliation: Cell 17. \"");
-        yield return new WaitForSeconds(8f);
+        dialogueSystem.DisplayDialogue("One Cycle later");
+        yield return new WaitForSeconds(3f);
+
+        dialogueSystem.DisplayDialogue(">voice one: \"Subject: Dr. Kara Thorne. \"");
+        yield return new WaitForSeconds(4f);
+        dialogueSystem.DisplayDialogue(">voice one: \"Former lead researcher of the Guild\"");
+        yield return new WaitForSeconds(4f);
+        dialogueSystem.DisplayDialogue(">voice one: \"Current affiliation: Cell 17.\"");
+        yield return new WaitForSeconds(4f);
         dialogueSystem.DisplayDialogue(">voice one:  \"Last known coordinates: 3.141, 592, 653, SE region, Arcana Belt\"");
         yield return new WaitForSeconds(7f);
         dialogueSystem.DisplayDialogue("> voice one: \"Interesting... nothing was discovered there. A practically unexplorable zone.\"");
