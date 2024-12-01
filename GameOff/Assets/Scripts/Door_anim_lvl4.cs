@@ -21,6 +21,7 @@ public class Door_anim_lvl4 : MonoBehaviour
 
 
     }
+ 
     private void OnMouseDown()
     {
         if (inventory_manager.item.Contains(item))
