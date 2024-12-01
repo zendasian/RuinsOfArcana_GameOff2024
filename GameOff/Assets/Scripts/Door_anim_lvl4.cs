@@ -19,11 +19,11 @@ public class Door_anim_lvl4 : MonoBehaviour
     {
         UnityEngine.Cursor.SetCursor(GlobalVariable.instance.eye_cursor, new Vector2(24, 24), CursorMode.Auto);
     }
-    private void OnMouseExit() 
+    private void OnMouseExit()
     {
         UnityEngine.Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
     }
- 
+
     private void OnMouseDown()
     {
         if (inventory_manager.item.Contains(item))
@@ -63,20 +63,21 @@ public class Door_anim_lvl4 : MonoBehaviour
         yield return new WaitForSeconds(4f);
         dialogueSystem.DisplayDialogue(">Player: \"I.....I have to see what's in there. I have to....\"");
         GlobalVariable.instance.is_cutscene = false;
-        
-       
+
+
 
         yield return null;
     }
     IEnumerator AccessGranted()
     {
         GlobalVariable.instance.is_cutscene = true;
+        gameObject.GetComponent<BoxCollider2D>().enabled = false;
         DialogueSystem dialogueSystem = FindFirstObjectByType<DialogueSystem>();
         dialogueSystem.DisplayDialogue(">Door: \"Analysis complete, Lifeform type: Human\"");
         FindFirstObjectByType<Inventory_manager>().deleteslot(0, item);
         yield return new WaitForSeconds(5f);
         dialogueSystem.DisplayDialogue(">Door:\"Access\"");
-        yield return new WaitForSeconds(4f);   
+        yield return new WaitForSeconds(4f);
         dialogueSystem.DisplayDialogue(">Door: \"Denied\"");
         yield return new WaitForSeconds(4f);
         dialogueSystem.DisplayDialogue(">Door: \"Authorized personnel detected.\"");
