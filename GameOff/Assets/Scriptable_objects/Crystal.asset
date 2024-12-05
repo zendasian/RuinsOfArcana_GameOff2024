@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Crystal
   m_EditorClassIdentifier: 
   name: Crystal
-  icon: {fileID: -7350591980013363154, guid: 48f480d690d46e74493a7ea652048330, type: 3}
+  icon: {fileID: 21300000, guid: 48f480d690d46e74493a7ea652048330, type: 3}
   description: ">Player: \"This shard could be useful. I\u2019ll keep it for analysis.\""
   hint: ">Data Sphere: \u201CSilicon-based crystal detected.\u201D"
   Actions:
   - Stone
-  cursor: {fileID: 2800000, guid: 3fa881f15bb07d1469225a405a1d516c, type: 3}
+  cursor: {fileID: 2800000, guid: c14dbb26d0952b24ca705d74ca072815, type: 3}

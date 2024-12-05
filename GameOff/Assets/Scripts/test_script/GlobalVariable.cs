@@ -5,6 +5,7 @@ using UnityEngine;
 public class GlobalVariable : MonoBehaviour
 {
     public Texture2D eye_cursor;
+    public Items EmptySlot;
     public bool[] phase = new bool[4];
     public static GlobalVariable instance;
     public bool is_puzzle_solved = false;
@@ -21,7 +22,8 @@ public class GlobalVariable : MonoBehaviour
     public bool is_cryo_dialouge = false;
     public bool is_pickable_lvl4 = true;
     public bool is_cutscene = false;
-
+    public bool is_stick_picked = false;
+    public bool is_spearhead_picked = false;
     public bool should_keep = true;
 
     void Awake()

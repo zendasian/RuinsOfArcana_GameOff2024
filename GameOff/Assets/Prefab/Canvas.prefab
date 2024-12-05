@@ -18,7 +18,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!224 &180955115931874503
 RectTransform:
@@ -60,7 +60,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 1
-  m_AdditionalShaderChannelsFlag: 25
+  m_AdditionalShaderChannelsFlag: 1
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -133,7 +133,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!224 &7994830134286562112
 RectTransform:
@@ -200,6 +200,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 180955115931874503}
     m_Modifications:
+    - target: {fileID: 204865812925758442, guid: 91eedaae0a104814881efebc89dadd86, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 865862301250355491, guid: 91eedaae0a104814881efebc89dadd86, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -0.8
@@ -264,6 +268,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0.51
       objectReference: {fileID: 0}
+    - target: {fileID: 1924037994548446677, guid: 91eedaae0a104814881efebc89dadd86, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2084165670695329641, guid: 91eedaae0a104814881efebc89dadd86, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.8178987
@@ -300,6 +308,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventoryManager
       objectReference: {fileID: 0}
+    - target: {fileID: 5510614671291538272, guid: 91eedaae0a104814881efebc89dadd86, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6902146583633043016, guid: 91eedaae0a104814881efebc89dadd86, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7453657307121937131, guid: 91eedaae0a104814881efebc89dadd86, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8198542142796934685, guid: 91eedaae0a104814881efebc89dadd86, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -1.8
@@ -328,6 +348,10 @@ PrefabInstance:
     - target: {fileID: 3192101290003274870, guid: 2454fc44eb3ecbe4aa52b053c87e9c1e, type: 3}
       propertyPath: m_Name
       value: Dialouges
+      objectReference: {fileID: 0}
+    - target: {fileID: 3192101290003274870, guid: 2454fc44eb3ecbe4aa52b053c87e9c1e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6452104190914721196, guid: 2454fc44eb3ecbe4aa52b053c87e9c1e, type: 3}
       propertyPath: m_text
@@ -448,6 +472,10 @@ PrefabInstance:
     - target: {fileID: 2677794630395558568, guid: 5ea40436b7cac7946b22716e319cbb52, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2677794630395558568, guid: 5ea40436b7cac7946b22716e319cbb52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6769002173768786610, guid: 5ea40436b7cac7946b22716e319cbb52, type: 3}
       propertyPath: m_Pivot.x

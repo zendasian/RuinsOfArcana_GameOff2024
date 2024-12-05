@@ -20,7 +20,8 @@ public class Skeli_controller : MonoBehaviour
     }
     private void OnMouseExit() 
     {
-        UnityEngine.Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
+        if(!FindFirstObjectByType<Inventory_manager>().iscustomCursor)
+        UnityEngine.Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto); 
     }
 
     private void OnMouseDown() 

@@ -17,17 +17,19 @@ public class obselisk_puzzleController : MonoBehaviour
 
     public UnityEvent puzzleSolved;
     public UnityEvent playerReturns;
+    public UnityEvent playerReturn_without_spearhead;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-            if (!FindFirstObjectByType<Inventory_manager>().item.Contains(spearhead) && GlobalVariable.instance.is_obs_correct)
-            {
-                puzzleSolved.Invoke();
-            }
-            if(!GlobalVariable.instance.is_next_lvl && GlobalVariable.instance.is_obs_correct && FindFirstObjectByType<Inventory_manager>().item.Contains(spearhead))
-            {
-                playerReturns.Invoke();
-            }
+        if(!GlobalVariable.instance.is_next_lvl && !GlobalVariable.instance.is_spearhead_picked)
+        {
+            playerReturn_without_spearhead.Invoke();
+        }
+
+        if (!GlobalVariable.instance.is_next_lvl && GlobalVariable.instance.is_obs_correct && GlobalVariable.instance.is_spearhead_picked)
+        {
+            playerReturns.Invoke();
+        }
 
     }
 
@@ -38,8 +40,9 @@ public class obselisk_puzzleController : MonoBehaviour
         if (obselisks[0].GetComponent<Obselisk>().isagnglecorrect && obselisks[1].GetComponent<Obselisk>().isagnglecorrect && obselisks[2].GetComponent<Obselisk>().isagnglecorrect)
         {
             puzzleSolved.Invoke();
-            
+
             obs_dialouge();
+
             GlobalVariable.instance.is_obs_correct = true;
         }
 
@@ -49,6 +52,7 @@ public class obselisk_puzzleController : MonoBehaviour
     {
         if (!is_dialouge)
         {
+
             FindFirstObjectByType<Audio_Manager>().Play("Bridge_move");
             is_dialouge = true;
             GameObject.FindFirstObjectByType<DialogueSystem>().DisplayDialogue("Player: well that did something! That sound… something massive just moved.");

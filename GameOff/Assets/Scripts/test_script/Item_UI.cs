@@ -19,7 +19,7 @@ public class Item_UI : MonoBehaviour
     
    public void onclick()
     {
-
+        if(slotItem != GlobalVariable.instance.EmptySlot && slotItem != null)
         gameObject.GetComponentInParent<Inventory_manager>().ItemIntractions(Slotindex, slotItem);
 
 

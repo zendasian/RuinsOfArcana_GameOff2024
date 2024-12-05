@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   eye_cursor: {fileID: 2800000, guid: ac2031255f6516046995629c97a6763f, type: 3}
+  EmptySlot: {fileID: 11400000, guid: af9c33fd3e6bde144b7d72ab1e2a8b44, type: 2}
   phase: 00000000
   is_puzzle_solved: 0
   is_Typing: 0

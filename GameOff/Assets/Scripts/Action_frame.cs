@@ -20,6 +20,5 @@ public class Action_frame : MonoBehaviour
     void ActionFrameEnd()
     {
         gameObject.GetComponent<Animator>().enabled = false;
-
     }
 }

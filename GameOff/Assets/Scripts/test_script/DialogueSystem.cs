@@ -2,6 +2,7 @@ using System.Collections;
 using UnityEngine;
 using TMPro;
 using Unity.VisualScripting;
+using UnityEngine.InputSystem;
 
 public class DialogueSystem : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class DialogueSystem : MonoBehaviour
     public float typingSpeed = 0.01f;
 
     private bool isTyping = false;
+    float typingskip = 1;
 
     
 
@@ -22,6 +24,18 @@ public class DialogueSystem : MonoBehaviour
     {
         dialogueText = GameObject.Find("Dialouges").GetComponent<TextMeshProUGUI>();
         //dialogueList = FindFirstObjectByType<DialogueList>();
+    }
+    private void Update() 
+    {
+        if(Input.GetKey(KeyCode.Mouse1))
+        {
+            Debug.Log("skipping");
+            typingskip = 0f;
+        }
+        else if (Input.GetKeyUp(KeyCode.Mouse1))
+        {
+            typingskip = 1f;
+        }
     }
 
     // Function to be called when an object is clicked, passing its tag
@@ -55,7 +69,7 @@ public class DialogueSystem : MonoBehaviour
         foreach (char letter in dialogue.ToCharArray())
         {
             dialogueText.text += letter;
-            yield return new WaitForSeconds(typingSpeed);
+            yield return new WaitForSeconds(typingSpeed * typingskip);
         }
 
 

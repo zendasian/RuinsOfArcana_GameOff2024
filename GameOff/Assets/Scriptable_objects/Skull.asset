@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Skull
   m_EditorClassIdentifier: 
   name: Skull
-  icon: {fileID: -8184064741191013071, guid: 08312f13c762eea44a4d5e207cfe667d, type: 3}
+  icon: {fileID: 21300000, guid: 08312f13c762eea44a4d5e207cfe667d, type: 3}
   description: '>?Player: "woah...that''s heavy"'
   hint: '>Data Sphere: "Analysis complete: Alien skeletal remains. Estimated age:
     approximately 4,000 years."'
   Actions:
   - Skull
-  cursor: {fileID: 2800000, guid: be1ca103f0a281742a32a72f375caa5d, type: 3}
+  cursor: {fileID: 2800000, guid: 2db520033627cc341a74524aacfffb02, type: 3}

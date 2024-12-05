@@ -39,13 +39,18 @@ public class Items_Object : MonoBehaviour
             dialogueSystem.DisplayDialogue(item.description);
 
         }
-        if (is_providing && GlobalVariable.instance.is_pickable_lvl4)
+        if (is_providing && GlobalVariable.instance.is_pickable_lvl4 && !GlobalVariable.instance.is_stick_picked)
         {
             FindFirstObjectByType<DialogueSystem>().DisplayDialogue("Player: \"Well, hello there. Looking a little loose, aren’t we?\"");
             FindFirstObjectByType<Dialouge_list>().dialouge_stick_pickup();
 
             GlobalVariable.instance.is_pickable_lvl4 = false;
+            GlobalVariable.instance.is_stick_picked = true;
             FindFirstObjectByType<Inventory_manager>().Additems(item, null);
+        }
+        if (item.name == "Spearhead")
+        {
+            GlobalVariable.instance.is_spearhead_picked = true;
         }
         
 
